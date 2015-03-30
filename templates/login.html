@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang = "en">
+<head>
+	<meta charset = "UFT-8">
+	<title>COMPUSHOW - Login</title>
+
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/estilo.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	
+</head>
+
+<body>
+	<div class="contenedor">
+
+		<header>
+			<img src="{{ STATIC_URL }}img/tittle.png">
+		</header>
+
+ 		<section class="log_tittle">				
+			
+			<form action="#">
+
+				<input type="text" max-length="20" name="nombre" placeholder="Ingresa tu carnet">
+				<br>
+				<input type="password" name="password" placeholder="Ingresa tu contrasena">
+				<br>
+				<button type="submit">Dale puej</button>
+			</form>
+			
+			<!-- <img src="./bg-login.png"> -->
+		
+		</section>
+
+		<aside class="pequeno">
+			<p>
+				Logeate y vota en el Compushow
+			</p>
+		</aside>
+
+		<aside>
+			<p>
+				!Este compushow se nos va a ir a de las manos!
+				<br>
+				Logeate y participa!
+				<br>
+				Nomina a los computistas mas destacados
+			
+			</p>
+		</aside>
+
+	</div>
+</body>
+
+

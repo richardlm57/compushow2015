@@ -1,0 +1,129 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background: #FFFFFA;
+	background-image: url("./img/LV-bg.jpg");
+	background-color: #a89874;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+header {
+	width: 100%;
+}
+
+header img{
+	z-index: 3;
+	width: 90%;
+	left: 50%;
+}
+
+.contenedor{
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.log_tittle{
+	width: 70%;
+	float: right;
+	padding: 10px;
+	margin: 0px auto;
+	box-sizing:border-box;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("./img/bg-login.png");
+}
+
+
+
+form{	
+	width: 50%;
+	margin: 100px auto;
+}
+
+form input{
+	width: 90%;
+	padding: 0px 1em;
+	text-align: center;
+	background-color: #fff3bd;
+	color: #9d6b1a;
+	border: none;
+}
+
+form button{
+	margin: auto 7.5%;
+	width: 90%;
+	border: none;
+	text-align: center;
+	background-color: #9d6b1a;
+	color: #fff;
+	border-radius: 100px;
+	box-shadow: 0 6px 4px -6px black;
+}
+
+aside{
+	width: 30%;
+	float: left;
+	padding: 10px;
+	top: 50%;
+	color: #fff;
+	box-sizing:border-box;
+	text-align: center;
+}
+
+.pequeno{
+	display: none;
+}
+
+
+
+
+@media screen and (max-width:800px){
+
+	body{
+		background-position: top;
+	}
+
+	.log_tittle{
+		width: 100%;
+	}
+
+	form{
+		width: 50%;
+	}
+
+	form input{	
+		width: 90%;	
+	}
+
+	aside{
+		display: none;
+	}
+
+	.pequeno{
+		text-align: center;
+		width: 100%;
+		position: relative;
+		display: block;
+	}
+
+	header img{
+		width: 100%;
+	}
+
+
+}	
+
+@media screen and (max-width: 400px){
+	.contenedor{
+		width: 100%;
+	}
+}

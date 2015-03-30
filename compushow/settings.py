@@ -27,6 +27,8 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+STATIC_ROOT = "/static/"
+
 
 # Application definition
 
@@ -37,7 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'compusho_app',
+    'compushow_app',
 )
 
 MIDDLEWARE_CLASSES = (
