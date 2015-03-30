@@ -16,5 +16,6 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', login),
+	url(r'^indexP$', index),
 
 ) + static(settings.STATIC_URL,)

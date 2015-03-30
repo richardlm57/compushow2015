@@ -26,7 +26,7 @@
 			<form action="." method="post">
               {% csrf_token %}
               {% for field in form %}
-                    <input type="text" name="{{field.name}}" placeholder="{{field.label}}">
+                    <input type="text" name="{{field.name}}" placeholder="{{field.label}}"><p>
                     {{ field.errors }}
               {% endfor %}
 				<button type="submit">Dale puej</button>

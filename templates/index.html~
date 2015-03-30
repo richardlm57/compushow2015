@@ -23,15 +23,6 @@
 
  		<section class="log_tittle">				
 			
-			<form action="." method="post">
-              {% csrf_token %}
-              {% for field in form %}
-                    <input type="text" name="{{field.name}}" placeholder="{{field.label}}">
-                    {{ field.errors }}
-              {% endfor %}
-				<button type="submit">Dale puej</button>
-			</form>
-			
 			<!-- <img src="./bg-login.png"> -->
 		
 		</section>
@@ -47,6 +38,12 @@
 				¡Este compushow se nos va a ir a de las manos!
 				<br>
 				Logeate y participa
+				<br>
+				{% for field in form %}
+                  {% if field.name == "carnetNum" %} 
+                    {{field.value}}
+					{% endif %}
+				{% endfor %}
 				<br>
 				Nomina a los computistas mas destacados
 			
