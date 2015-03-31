@@ -23,6 +23,12 @@ header img{
 	left: 50%;
 }
 
+a{
+	text-decoration: none;
+	color: #9d6b1a;
+}
+
+
 .contenedor{
 	width: 80%;
 	max-width: 1000px;
@@ -40,9 +46,35 @@ header img{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-image: url("./bg-login.png");
+
 }
 
 
+footer{
+	width: 100%;
+	margin: 0px auto;
+	float: left;
+	font-weight: bold;
+	color: #fff;
+	font-size: 1.5em;
+	text-align: center;
+	box-sizing:border-box;
+}
+
+aside{
+	width: 30%;
+	float: left;
+	padding: 10px;
+	top: 50%;
+	color: #fff;
+	box-sizing:border-box;
+	text-align: center;
+
+}
+
+.rojo{
+	color: red;
+}
 
 form{	
 	width: 50%;
@@ -67,16 +99,6 @@ form button{
 	color: #fff;
 	border-radius: 100px;
 	box-shadow: 0 6px 4px -6px black;
-}
-
-aside{
-	width: 30%;
-	float: left;
-	padding: 10px;
-	top: 50%;
-	color: #fff;
-	box-sizing:border-box;
-	text-align: center;
 }
 
 .pequeno{
@@ -118,7 +140,9 @@ aside{
 	header img{
 		width: 100%;
 	}
-
+	footer{
+		display: none;
+	}
 
 }	
 
@@ -126,4 +150,5 @@ aside{
 	.contenedor{
 		width: 100%;
 	}
+
 }
