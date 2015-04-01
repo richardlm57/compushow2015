@@ -7,48 +7,93 @@
 	<title>COMPUSHOW - Login</title>
 
 	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/font.css">
 
 	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="{{ STATIC_URL }}js/menu.js"></script>
+
 	
 </head>
 
 <body>
-	<div class="contenedor">
+	<img class="opaco" src="{{ STATIC_URL }}img/black.jpg">
 
+	<div class="contenedor inicio">
 		<header>
-			<img src="{{ STATIC_URL }}img/tittle.png">
+			<div class="menu_bar">
+
+				<a href="#" class="bt-menu"><span class="icon-lines"></span> <img class="peque" src="{{ STATIC_URL }}img/tittle.png"> </a>
+
+			</div>
+
+				<nav>
+					<img class="peque" src="{{ STATIC_URL }}img/tittle.png">
+					<ul align=left>
+					<img class="opaco sub" src="{{ STATIC_URL }}img/black.jpg">
+						<li class="bt-menu">TUS NOMINADOS</li>
+						<li class="submenu bt-menu">NOMINACIONES<span class="caret icon-keyboard-arrow-down"></span>
+							<ul class="hijos">
+								<li><a href="#">CompuChill</a></li>
+								<li><a href="#">CompuGordito</a></li>
+								<li><a href="#">CompuProductista</a></li>
+								<li><a href="#">CompuCartoon</a></li>
+								<li><a href="#">CompuComadre</a></li>
+								<li><a href="#">CompuCompadre</a></li>
+								<li><a href="#">CompuLove</a></li>
+								<li><a href="#">CompuIntenso</a></li>
+								<li><a href="#">CompuPregunton</a></li>
+								<li><a href="#">CompuFitness</a></li>
+								<li><a href="#">CompuTeam</a></li>
+								<li><a href="#">CompuMaster</a></li>
+								<li><a href="#">CompuPapi</a></li>
+								<li><a href="#">CompuMami</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
 		</header>
 
- 		<section class="log_tittle">				
-			
-			<!-- <img src="./bg-login.png"> -->
-		
-		</section>
 
-		<aside class="pequeno">
-			<p>
-				Logeate y vota en el Compushow
-			</p>
-		</aside>
+ 		<section class="nominacion">
+			<section class="nominar">
+				<span class="circular">
+					<img src="{{ STATIC_URL }}img/CompuChill.jpg" >	
+				</span>
 
-		<aside>
-			<p>
-				¡Este compushow se nos va a ir a de las manos!
-				<br>
-				Logeate y participa
-				<br>
-				{% for field in form %}
-                  {% if field.name == "Carnet" %} 
-                    {{field.value}}
-					{% endif %}
-				{% endfor %}
-				<br>
-				Nomina a los computistas mas destacados
-			
-			</p>
-		</aside>
+				<section class="navega">
+					<h2 class="b_izq"><a href="#"><span class="icon-keyboard-arrow-left"></span></a></h2>
+					<h2 class="b_der"><a href="#"><span class="icon-keyboard-arrow-right"></span></a></h2>
+					<h1 align="center">CompuChill</h1>								
+				</section>
+
+
+				<section class="nominado">
+					<section class="desc_nominacion">
+						<p>
+							<br>
+							Esta nominacion es para ese computista que ni la 12 lo perturba. Siempre esta chilleando.
+						</p>
+					</section>
+
+					<input type="text" class="nombre_input" placeholder="Nombre">
+					<br>
+					<br>
+						<div class="boton-file">FOTO:</div> 
+						<input type="file" class="file_input" name="img" accept="image/*">
+						<div class="file_text">No has escogido foto</div>
+					<br>
+					<br>
+					<section class="boton">
+						<a href="#">NOMINAR <span class="icon-keyboard-arrow-right"></span></a>
+					</section>
+				</section>
+
+
+			</section>
+
+		</section> 
 
 	</div>
 </body>

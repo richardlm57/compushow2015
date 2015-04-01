@@ -1,129 +1,526 @@
-* {
-	margin:0;
-	padding:0;
-}
+/* GENERAL */
+	* {
+		margin:0;
+		padding:0;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
 
-body {
-	background: #FFFFFA;
-	background-image: url("./LV-bg.jpg");
-	background-color: #a89874;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	font-family: 'Quattrocento Sans', sans-serif;
-}
-
-header {
-	width: 100%;
-}
-
-header img{
-	z-index: 3;
-	width: 90%;
-	left: 50%;
-}
-
-.contenedor{
-	width: 80%;
-	max-width: 1000px;
-	margin: 0 auto;
-	overflow: hidden;
-}
-
-.log_tittle{
-	width: 70%;
-	float: right;
-	padding: 10px;
-	margin: 0px auto;
-	box-sizing:border-box;
-	background-size: 80%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-image: url("./bg-login.png");
-}
-
-
-
-form{	
-	width: 50%;
-	margin: 100px auto;
-}
-
-form input{
-	width: 90%;
-	padding: 0px 1em;
-	text-align: center;
-	background-color: #fff3bd;
-	color: #9d6b1a;
-	border: none;
-}
-
-form button{
-	margin: auto 7.5%;
-	width: 90%;
-	border: none;
-	text-align: center;
-	background-color: #9d6b1a;
-	color: #fff;
-	border-radius: 100px;
-	box-shadow: 0 6px 4px -6px black;
-}
-
-aside{
-	width: 30%;
-	float: left;
-	padding: 10px;
-	top: 50%;
-	color: #fff;
-	box-sizing:border-box;
-	text-align: center;
-}
-
-.pequeno{
-	display: none;
-}
-
-
-
-
-@media screen and (max-width:800px){
-
-	body{
+	body {
+		background: #FFFFFA;
+		background-image: url("./LAS-VEGAS.jpg");
+		background-color: #000;
+		background-size: 100%;
+		background-repeat: no-repeat;
 		background-position: top;
+		font-family: 'Quattrocento Sans', sans-serif;
 	}
 
-	.log_tittle{
+	a{
+		text-decoration: none;
+		color: #8B0404;
+	}
+
+	a:hover{
+		color: #fff;
+	}
+
+	a span{
+		font-size: 1em;
+		color: #fff;
+
+	}
+
+	.opaco{
+		filter: alpha(opacity=50); 
+		opacity: 0.85;
+		top: 0px;
+		position: absolute;
+		z-index: -100;
 		width: 100%;
+		height: 100%;
 	}
 
-	form{
-		width: 50%;
+	a span:hover{
+		background-color: #8B0404;
 	}
 
-	form input{	
-		width: 90%;	
-	}
-
-	aside{
+	.sub{
 		display: none;
 	}
 
-	.pequeno{
-		text-align: center;
+/* HEADER */
+
+	header {
 		width: 100%;
+	}
+
+	header nav{
+		width: 100%;
+		max-width: 1000px;
+		margin: auto auto;
+		padding: 15px;
+		height: calc(100% - 80px);
+		color: #fff;
+	}
+
+	header nav ul{
+		list-style: none;
+	}
+
+	
+	header nav ul li{
+		display: inline-block;
 		position: relative;
+	}
+
+	header nav ul li:hover{
+		background-color: #8B0404;
+
+	}
+
+	header nav ul li a{
+		padding: 10px;
 		display: block;
 	}
 
 	header img{
-		width: 100%;
+		width: 90%;
 	}
 
-
-}	
-
-@media screen and (max-width: 400px){
-	.contenedor{
-		width: 100%;
+	.menu_bar{
+		display: none;
 	}
-}
+
+	header .peque{
+		width: 40%;
+		float: left;	
+	}
+
+	/* SUBMENUES */
+		header nav ul li .hijos{
+			display: none;
+			position: absolute;
+			width: 200%;
+			z-index: 1000;
+		}
+
+		header nav ul li:hover .hijos{
+			display: none;
+		}
+
+		.hijos{
+			background-color: #fff;																																																																																																																																																																																												
+		}
+
+		header nav ul li .hijos li{
+			display: block;
+			overflow: hidden;
+			border-bottom: 1px solid rgba(255,255,255,.5);
+		}
+
+		header nav ul li .hijos li a{
+			display: block;
+		}
+
+		header nav ul li .caret{
+			position: relative;
+			top: 3px;
+			margin-left: 10px;
+			margin-right: 0px;
+		}
+
+	/* BOTONES MENU */
+		.bt-menu{
+			margin:10px 10px;
+			padding: 4px;
+			border-radius: 15px;
+			font-weight: bold;
+			
+		}
+
+		.bt-menu:hover{
+			background-color: #8B0404;
+		}
+
+		.caret{
+			font-size: 1.5em;
+			margin: 0em 0em;
+		}
+
+/* CUERPO */
+
+	/* GENERAL */
+
+		.contenedor{
+			width: 80%;
+			max-width: 1000px;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+
+	/* LOGIN */
+		.log_tittle{
+			width: 70%;
+			float: right;
+			padding: 10px;
+			margin: 0px auto;
+			box-sizing:border-box;
+			background-size: 80%;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-image: url("./bg-login.png");
+		}
+
+		aside{
+			width: 30%;
+			float: left;
+			padding: 10px;
+			top: 50%;
+			color: #fff;
+			box-sizing:border-box;
+			text-align: center;
+		}
+
+	/* NOMINACIONES */
+
+		.inicio{
+			overflow: visible;
+		}
+
+		.nominacion{
+			width: 100%;
+			padding: 0px;
+			margin: 0px auto;
+			overflow:hidden;
+			text-align: center;
+		}
+
+		.nominar{
+			width: 100%;
+			color: #fff;
+			box-sizing:border-box;
+			padding: 0px;
+			margin: auto 0px;
+		}
+
+		.nominado{
+			width: 50%;
+			margin: 1px auto;
+			position: relative;
+		}
+
+		.pequeno{
+			display: none;
+		}
+
+		/* NAVEGA */
+
+			.navega{
+				width: 100%;
+				margin: 0px auto 10px;		
+				font-size: 2em;
+				overflow: hidden;
+				text-align: center;
+			}
+
+			.navega .b_izq{
+				float: left;
+			}
+
+			.b_der:hover{
+				background-color: #8B0404;
+			}
+
+			.b_izq:hover{
+				background-color: #8B0404;
+			}
+			
+			.navega .b_der{
+				float: right;
+			}
+
+			.navega h1{
+				margin: 10px auto 0px;
+			}
+
+		/* DESC. NOMINADOS */
+
+			.desc_nominacion{
+				padding: 0;
+				width: 100%;
+				box-sizing:border-box;
+				margin: 0px auto 5px ;
+				overflow:hidden;
+				position: static;
+			}
+
+			.desc_nominacion p{
+				padding: 5px;
+			}
+
+			.circular {
+				display: inline-block;
+				overflow: hidden;
+				-webkit-border-radius: 100%;
+				-moz-border-radius: 100%;
+				border-radius: 100%;
+				padding: 0;
+				border: 0;
+				width: 10em;
+				height: 10em;
+				background-color: #000;
+			}
+
+			.circular img{
+				min-width: 100%;
+				max-width: 150%;
+			}
+
+		/* BOTONES NOMINAR */
+
+
+			.boton{
+				width: 50%;
+				background-color: #8B0404;
+				text-align: right;
+				padding: 5px;
+				margin: 0px auto;
+			}
+
+			.boton-file{
+				display: block;
+				position: absolute;
+				background-color: #8B0404;
+				width: 30%;
+				z-index: 0;
+				height: 1.5em;
+				padding: 1% 1.6em 0 1.6em;
+				overflow: hidden;
+			}
+
+			.file_text{
+				display: inline-block;
+				position: absolute;
+				overflow: hidden;
+				left: 30%;
+				width: 70%;
+				z-index: 3;
+				height: 1.5em;
+				background-color: #525252;
+				padding: 1% 1.6em 0 1.6em;
+				text-transform: uppercase;
+			}
+
+			.boton a{
+				color: #fff;
+			}
+
+			.boton a span{
+				background-color: #8B0404;
+			}
+
+			.file_input{
+				display: block;
+				position: absolute;
+				padding: 0;
+				opacity: 0;
+				width: 50%;
+				float: left;
+				z-index: 2;
+			}
+
+			.nombre_input{
+				display: inline-block;
+				position: absolute;
+				left: 0%;
+				width: 100%;
+				z-index: 3;
+				height: 1.5em;
+				background-color: #525252;
+				padding: 1% 1.6em 1% 0.5em;
+				border: none;
+				outline: medium none;
+				text-transform: uppercase;
+			}
+
+			.nominado p{
+				float: left;
+			}
+
+/* FORM */
+
+	form{	
+		width: 50%;
+		margin: 100px auto;
+	}
+
+	form input{
+		width: 90%;
+		padding: 0px 1em;
+		text-align: center;
+		color: #9d6b1a;
+		border: none;
+	}
+
+	form button{
+		margin: auto 7.5%;
+		width: 90%;
+		border: none;
+		text-align: center;
+		background-color: #9d6b1a;
+		color: #fff;
+		border-radius: 100px;
+		box-shadow: 0 6px 4px -6px black;
+	}
+
+/* MEDIA 800 */
+
+	@media screen and (max-width:800px){
+
+		/* CUERPO */
+			body{
+				background-position: top;
+				padding-top: 80px;
+			}
+
+			.log_tittle{
+				width: 100%;
+			}
+
+			.nominacion{
+				width: 100%;
+			}
+
+			.inicio{
+				width: 100%;
+				margin: 10px auto;
+			}
+
+			aside{
+				display: none;
+
+			}
+
+			.pequeno{
+				text-align: center;
+				width: 100%;
+				position: relative;
+				display: block;
+				z-index: -100;
+			}
+
+		/* FORM */
+			form{
+				width: 50%;
+			}
+
+			form input{	
+				width: 90%;	
+			}
+
+		/* HEADER */
+
+			header img{
+				width: 100%;
+			}
+
+
+
+			header nav{
+				width: 80%;
+				position: fixed;
+				height: calc(100%-80px);
+				margin: 0;
+				left: -100%;
+				overflow: scroll;
+				z-index: 100;
+			}
+
+			header nav ul li{
+				display: block;
+				float: none;
+				border-bottom:1px solid rgba(255,2550,255,.5); 
+			}
+
+			header nav ul li a{
+				display: block;
+			}
+
+			header nav ul li .hijos{
+				width: 100%;
+				position: relative;
+			}
+
+			header nav ul li .hijos a{
+				margin-left: 20px;
+			}
+
+
+			.menu_bar{
+				display: block;
+				width: 100%;
+				position: fixed;
+				top: 0;
+			}
+
+			nav img{
+				display: none;
+			}
+
+			header nav ul li .hijos{
+				width: 80%;
+				z-index: 1000;
+			}
+
+			.menu_bar .bt-menu{
+				display: block;
+				padding: 20px;
+				font-weight: bold;
+				overflow: hidden;
+				font-size: 25px;
+				-webkit-box-sizing:border-box;
+				-moz-box-sizing:border-box;
+				box-sizing:border-box;
+			}
+
+			header nav ul li:hover .hijos{
+				display: none;
+			}
+
+			.menu_bar span{
+				float: right;
+				font-size: 40px;
+			}
+
+			header nav ul li:hover{
+				background-color: #e4c35f;
+			}
+			
+			.bt-menu{
+				border-radius: 0px; 
+				-moz-box-shadow: 0px 0px 0px #e4831f;
+				-webkit-box-shadow: 0px 0px 0px #e4831f;
+				box-shadow: 0px 0px 0px 0px #fff;
+				font-weight: bold;
+				color: #fff;
+				margin: auto;
+				float: none;
+			}
+
+			.menu_bar a:hover{
+				background:	transparent;
+			}
+
+			.sub{
+				display: block;
+			}
+	}	
+
+/* MEDIA 400 */
+	@media screen and (max-width: 400px){
+		.contenedor{
+			width: 100%;
+		}
+	}
