@@ -38,11 +38,6 @@
               {% endfor %}
 				<button type="submit">Dale puej</button>
 			</form>
-			<a href="./signup">
-        	<button type="button" class="btn btn-primary">
-        		Regístrate
-        	</button>
-        </a>
 			
 		</section>
 
@@ -56,7 +51,7 @@
 			<p>
 				¡Este compushow se nos va a ir a de las manos!
 				<br>
-				Logeate y participa
+				Registrate pa que puedas votar en esta vaina
 				<br>
 				Nomina a los computistas mas destacados
 			

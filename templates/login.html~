@@ -38,11 +38,6 @@
               {% endfor %}
 				<button type="submit">Dale puej</button>
 			</form>
-			<a href="./signup">
-        	<button type="button" class="btn btn-primary">
-        		Regístrate
-        	</button>
-        </a>
 			
 		</section>
 
