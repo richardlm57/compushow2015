@@ -5,7 +5,7 @@ from django.views.generic import View
 from compushow_app.forms import *
 from compushow_app.models import *
 from django.contrib.auth.models import User
-from django.contrib.auth import authenticate, login as auth_login, logout
+from django.contrib.auth import authenticate, login as auth_login, logout as auth_logout
 import datetime
 
 
@@ -46,3 +46,7 @@ def signup(request):
 	else:
 		form = Login_Signup_Form()
 	return render_to_response('signup.html',{'form':form},context_instance=RequestContext(request))
+
+def logout(request):
+    auth_logout(request)
+    return render_to_response('login.html',locals(),context_instance=RequestContext(request))
