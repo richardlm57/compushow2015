@@ -3,13 +3,14 @@
 <html lang = "en">
 <head>
 	<meta charset = "UFT-8">
-	<title>COMPUSHOW - Login</title>
+	<title>COMPUSHOW - {% block title %}{% endblock %}</title>
 
 	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/estilo.css">
 	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/font.css">
 
 	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="{{ STATIC_URL }}js/menu.js"></script>
 
@@ -52,8 +53,8 @@
 								<li><a href="/CompuMami/">CompuMami</a></li>
 							</ul>
 						</li>
-						<a href="./logout">
-							<li class="bt-menu">CERRAR SESIÓN</li>
+						<a href="/logout/">
+							<li class="bt-menu">SALIR</li>
 						<a>
 					</ul>
 				</nav>

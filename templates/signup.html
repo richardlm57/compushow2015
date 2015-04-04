@@ -7,6 +7,7 @@
 	<title>COMPUSHOW - Login</title>
 
 	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/font.css">
 
 	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -30,13 +31,13 @@
               {% for field in form %}
                     
               		{% if field.name == "Password" %}
-                    <input type="password" name="{{field.name}}" placeholder="{{field.label}}">
+                    <input type="password" name="{{field.name}}" placeholder="{{field.label}} ">
                     {% else %}
-                    <input type="text" name="{{field.name}}" placeholder="{{field.label}}">
+                    <input type="text" name="{{field.name}}" placeholder="{{field.label}} (Ej: 00-00000)">
                     {% endif %}
                     {{ field.errors }}
               {% endfor %}
-				<button type="submit">Dale puej</button>
+				<button type="submit" class="login_input">Registrarme<span class="icon-keyboard-arrow-right"></span></button>
 			</form>
 			
 		</section>
@@ -49,12 +50,15 @@
 
 		<aside>
 			<p>
-				¡Este compushow se nos va a ir a de las manos!
-				<br>
-				Registrate pa que puedas votar en esta vaina
-				<br>
-				Nomina a los computistas mas destacados
-			
+					Registrate pa que puedas votar en esta vaina
+					<br>
+					<br>
+					Recuerda que debes ser estudiante, profesor o preparador de la carrera para poder votar
+					<br>
+					<br>
+					Cualquier problema avisa a usbceic@gmail.com
+
+
 			</p>
 		</aside>
 

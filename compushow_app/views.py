@@ -17,15 +17,12 @@ def login(request):
 		if form.is_valid():
 			carnet=form.cleaned_data['Carnet']
 			password=form.cleaned_data['Password']
-<<<<<<< HEAD
-			return render_to_response('CompuChill.html',{'form':form},context_instance=RequestContext(request))
-=======
 			user = authenticate(username=carnet, password=password)
 			if user is not None:
 				# the password verified for the user
 				if user.is_active:
 					auth_login(request,user)
-					return render_to_response('index.html',{'form':form},context_instance=RequestContext(request))
+					return render_to_response('CompuChill.html',{'form':form},context_instance=RequestContext(request))
 				else:
 					print("The password is valid, but the account has been disabled!")
 					return render_to_response('login.html',{'form':form},context_instance=RequestContext(request))
@@ -33,12 +30,10 @@ def login(request):
 				# the authentication system was unable to verify the username and password
 				print("The username and password were incorrect.")
 				return render_to_response('login.html',{'form':form},context_instance=RequestContext(request))
->>>>>>> 61186d14c3f4b0a584877e1de8db71bd7c6156da
 	else:
 		form = Login_Signup_Form()
 	return render_to_response('login.html',{'form':form},context_instance=RequestContext(request))
 
-<<<<<<< HEAD
 def CompuChill(request):
 	return render_to_response('CompuChill.html',locals(),context_instance=RequestContext(request))
 
@@ -86,7 +81,7 @@ def CompuPapi(request):
 
 def CompuMami(request):
 	return render_to_response('CompuMami.html',locals(),context_instance=RequestContext(request))
-=======
+
 def signup(request):
 	if request.method == 'POST':
 		form = Login_Signup_Form(request.POST)
@@ -103,4 +98,3 @@ def signup(request):
 def logout(request):
     auth_logout(request)
     return render_to_response('login.html',locals(),context_instance=RequestContext(request))
->>>>>>> 61186d14c3f4b0a584877e1de8db71bd7c6156da
