@@ -3,7 +3,7 @@ from django.core.validators import RegexValidator
 
 # Form para la creación de un estacionamiento
 
-class LoginForm(forms.Form):
+class Login_Signup_Form(forms.Form):
 	carnet_validator = RegexValidator(
                             regex = '^\d{2}-\d{5}$',
                             message = 'Debes introducir un formato válido.'
