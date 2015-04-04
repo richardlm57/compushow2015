@@ -1,0 +1,33 @@
+{% extends 'index.html' %}
+
+{% block title %}CompuTeam{% endblock %}
+
+{% block imagen %}
+<img src="{{ STATIC_URL }}img/CompuTeam.jpg" >	
+{% endblock %}
+
+{% block Nominacion %}
+CompuTeam
+{% endblock %}
+
+{% block Descripcion %}
+Esta nominacion es para ese TEAM. Siempre esta TEAM.
+{% endblock %}
+
+{% block anterior %}
+"/CompuFitness/"
+{% endblock %}
+
+{% block siguiente %}
+"/CompuMaster/"
+{% endblock %}
+
+
+{% block Botones %}
+<input type="text" class="nombre_input" placeholder="Nombre">
+<br>
+<br>
+<div class="boton-file">FOTO:</div> 
+<input type="file" class="file_input" name="img" accept="image/*">
+<div class="file_text">No has escogido foto</div>
+{% endblock %}

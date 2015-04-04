@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 {% load static %}
 <html lang = "en">
@@ -35,22 +34,27 @@
 						<li class="bt-menu">TUS NOMINADOS</li>
 						<li class="submenu bt-menu">NOMINACIONES<span class="caret icon-keyboard-arrow-down"></span>
 							<ul class="hijos">
-								<li><a href="#">CompuChill</a></li>
-								<li><a href="#">CompuGordito</a></li>
-								<li><a href="#">CompuProductista</a></li>
-								<li><a href="#">CompuCartoon</a></li>
-								<li><a href="#">CompuComadre</a></li>
-								<li><a href="#">CompuCompadre</a></li>
-								<li><a href="#">CompuLove</a></li>
-								<li><a href="#">CompuIntenso</a></li>
-								<li><a href="#">CompuPregunton</a></li>
-								<li><a href="#">CompuFitness</a></li>
-								<li><a href="#">CompuTeam</a></li>
-								<li><a href="#">CompuMaster</a></li>
-								<li><a href="#">CompuPapi</a></li>
-								<li><a href="#">CompuMami</a></li>
+								<li><a href="/CompuChill/">CompuChill</a></li>
+								<li><a href="/CompuGordito/">CompuGordito</a></li>
+								<li><a href="/CompuProductista/">CompuProductista</a></li>
+								<li><a href="/CompuCartoon/">CompuCartoon</a></li>
+								<li><a href="/CompuComadre/">CompuComadre</a></li>
+								<li><a href="/CompuCompadre/">CompuCompadre</a></li>
+								<li><a href="/CompuLove/">CompuLove</a></li>
+								<li><a href="/CompuCuchi/">CompuCuchi</a></li>
+								<li><a href="/CompuIntenso/">CompuIntenso</a></li>
+								<li><a href="/CompuPregunton/">CompuPregunton</a></li>
+								<li><a href="/CompuFitness/">CompuFitness</a></li>
+								<li><a href="/CompuTeam/">CompuTeam</a></li>
+								<li><a href="/CompuMaster/">CompuMaster</a></li>
+								<li><a href="/CompuPro/">CompuPro</a></li>
+								<li><a href="/CompuPapi/">CompuPapi</a></li>
+								<li><a href="/CompuMami/">CompuMami</a></li>
 							</ul>
 						</li>
+						<a href="./logout">
+							<li class="bt-menu">CERRAR SESIÓN</li>
+						<a>
 					</ul>
 				</nav>
 		</header>
@@ -59,13 +63,14 @@
  		<section class="nominacion">
 			<section class="nominar">
 				<span class="circular">
-					<img src="{{ STATIC_URL }}img/CompuChill.jpg" >	
+					{% block imagen %}
+					{% endblock %}
 				</span>
 
 				<section class="navega">
-					<h2 class="b_izq"><a href="#"><span class="icon-keyboard-arrow-left"></span></a></h2>
-					<h2 class="b_der"><a href="#"><span class="icon-keyboard-arrow-right"></span></a></h2>
-					<h1 align="center">CompuChill</h1>								
+					<h2 class="b_izq"><a href={% block anterior %}{% endblock %}><span class="icon-keyboard-arrow-left"></span></a></h2>
+					<h2 class="b_der"><a href={% block siguiente %}{% endblock %}><span class="icon-keyboard-arrow-right"></span></a></h2>
+					<h1 align="center">{% block Nominacion %}{% endblock %}</h1>								
 				</section>
 
 
@@ -73,29 +78,21 @@
 					<section class="desc_nominacion">
 						<p>
 							<br>
-							Esta nominacion es para ese computista que ni la 12 lo perturba. Siempre esta chilleando.
+							{% block Descripcion %}
+							{% endblock %}
 						</p>
 					</section>
 
-					<input type="text" class="nombre_input" placeholder="Nombre">
-					<br>
-					<br>
-						<div class="boton-file">FOTO:</div> 
-						<input type="file" class="file_input" name="img" accept="image/*">
-						<div class="file_text">No has escogido foto</div>
+					{% block Botones %}
+					{% endblock %}
+					
 					<br>
 					<br>
 					<section class="boton">
 						<a href="#">NOMINAR <span class="icon-keyboard-arrow-right"></span></a>
 					</section>
 				</section>
-
-
 			</section>
-
-		</section> 
-
+		</section>
 	</div>
 </body>
-
-

@@ -1,0 +1,36 @@
+{% extends 'index.html' %}
+
+{% block title %}CompuLove{% endblock %}
+
+{% block imagen %}
+<img src="{{ STATIC_URL }}img/CompuLove.jpg" >	
+{% endblock %}
+
+{% block Nominacion %}
+CompuLove
+{% endblock %}
+
+{% block Descripcion %}
+Esta nominacion es para ese computista que LOVE. Siempre esta LOVE.
+{% endblock %}
+
+{% block anterior %}
+"/CompuCompadre/"
+{% endblock %}
+
+{% block siguiente %}
+"/CompuCuchi/"
+{% endblock %}
+
+
+{% block Botones %}
+<input type="text" class="nombre_input" placeholder="Nombre 1">
+<br>
+<br>
+<input type="text" class="nombre_input" placeholder="Nombre 2">
+<br>
+<br>
+<div class="boton-file">FOTO:</div> 
+<input type="file" class="file_input" name="img" accept="image/*">
+<div class="file_text">No has escogido foto</div>
+{% endblock %}

@@ -260,21 +260,17 @@
 				padding: 5px;
 			}
 
-			.circular {
-				display: inline-block;
+
+			.circular img{
 				overflow: hidden;
+				display: block;
+				height: 10em;
+				width: 10em;
 				-webkit-border-radius: 100%;
 				-moz-border-radius: 100%;
 				border-radius: 100%;
-				padding: 0;
-				border: 0;
-				width: 10em;
-				height: 10em;
-				background-color: #000;
-			}
-
-			.circular img{
-				min-width: 100%;
+				display: block;
+				margin: 0px auto;
 				max-width: 150%;
 			}
 
