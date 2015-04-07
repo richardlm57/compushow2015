@@ -33,29 +33,16 @@
 					<ul align=left>
 					<img class="opaco sub" src="{{ STATIC_URL }}img/black.jpg">
 						<li class="bt-menu">TUS NOMINADOS</li>
-						<li class="submenu bt-menu">NOMINACIONES<span class="caret icon-keyboard-arrow-down"></span>
+						<li class="submenu bt-menu bt-nominaciones">NOMINACIONES<span class="caret icon-keyboard-arrow-down"></span>
 							<ul class="hijos">
-								<li><a href="/CompuChill/">CompuChill</a></li>
-								<li><a href="/CompuGordito/">CompuGordito</a></li>
-								<li><a href="/CompuProductista/">CompuProductista</a></li>
-								<li><a href="/CompuCartoon/">CompuCartoon</a></li>
-								<li><a href="/CompuComadre/">CompuComadre</a></li>
-								<li><a href="/CompuCompadre/">CompuCompadre</a></li>
-								<li><a href="/CompuLove/">CompuLove</a></li>
-								<li><a href="/CompuCuchi/">CompuCuchi</a></li>
-								<li><a href="/CompuIntenso/">CompuIntenso</a></li>
-								<li><a href="/CompuPregunton/">CompuPregunton</a></li>
-								<li><a href="/CompuFitness/">CompuFitness</a></li>
-								<li><a href="/CompuTeam/">CompuTeam</a></li>
-								<li><a href="/CompuMaster/">CompuMaster</a></li>
-								<li><a href="/CompuPro/">CompuPro</a></li>
-								<li><a href="/CompuPapi/">CompuPapi</a></li>
-								<li><a href="/CompuMami/">CompuMami</a></li>
+								{% for n in nominaciones %}
+									<li><a href="/{{n}}/">{{n}}</a></li>
+								{% endfor %}
 							</ul>
 						</li>
 						<a href="/logout/">
 							<li class="bt-menu">SALIR</li>
-						<a>
+						</a>
 					</ul>
 				</nav>
 		</header>
@@ -69,8 +56,6 @@
 				</span>
 
 				<section class="navega">
-					<h2 class="b_izq"><a href={% block anterior %}{% endblock %}><span class="icon-keyboard-arrow-left"></span></a></h2>
-					<h2 class="b_der"><a href={% block siguiente %}{% endblock %}><span class="icon-keyboard-arrow-right"></span></a></h2>
 					<h1 align="center">{% block Nominacion %}{% endblock %}</h1>								
 				</section>
 

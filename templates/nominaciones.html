@@ -1,0 +1,38 @@
+{% extends 'index.html' %}
+
+{% block title %}
+	{{nombre_nominacion}}
+{% endblock %}
+
+{% block imagen %}
+	<img src="{{ STATIC_URL }}img/{{nombre_nominacion}}.jpg" >	
+{% endblock %}
+
+{% block Nominacion %}
+	{{nombre_nominacion}}
+{% endblock %}
+
+{% block Descripcion %}
+	Esta nominacion es para ese computista que ni la 12 lo perturba. Siempre esta chilleando.
+{% endblock %}
+
+{% block Botones %}
+
+	{% if nombre_nominacion == 'CompuLove' %}
+		<input type="text" class="nombre_input" placeholder="Nombre">
+		<br>
+		<br>
+		<input type="text" class="nombre_input" placeholder="Nombre">
+		<br>
+		<br>
+	{% endif %}
+	{% if nombre_nominacion != 'CompuLove' %}
+		<input type="text" class="nombre_input" placeholder="Nombre">
+		<br>
+		<br>
+	{% endif %}
+
+	<div class="boton-file">FOTO:</div> 
+		<input type="file" class="file_input" name="img" accept="image/*">
+	<div class="file_text">No has escogido foto</div>
+{% endblock %}
