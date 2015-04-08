@@ -63,6 +63,7 @@
 		padding: 15px;
 		height: calc(100% - 80px);
 		color: #fff;
+		text-align: right;	
 	}
 
 	header nav ul{
@@ -95,7 +96,7 @@
 
 	header .peque{
 		width: 40%;
-		float: left;	
+		float: left;
 	}
 
 	/* SUBMENUES */
@@ -147,6 +148,10 @@
 		.caret{
 			font-size: 1.5em;
 			margin: 0em 0em;
+		}
+
+		.bt-nominaciones{
+			display: none;
 		}
 
 /* CUERPO */
@@ -361,11 +366,13 @@
 		margin: 0px auto;
 		overflow: hidden;
 		position: relative;
+		top: 1em;
+		text-align: center;
 	}
 
 	form input{
-		width: 100%;
-		display: block;
+		display: inline-block;
+		width: 45%;
 		margin: 0.2em auto;
 		padding: 0 1em;
 		color: #9d6b1a;
@@ -457,7 +464,8 @@
 			}
 
 			form input{	
-				width: 100%;	
+				top: 1em;
+				width: 45%;	
 			}
 
 			form .boton{
@@ -482,6 +490,8 @@
 				left: -100%;
 				overflow: scroll;
 				z-index: 100;
+				text-align: left;	
+
 			}
 
 			header nav ul li{
@@ -519,6 +529,10 @@
 				width: 80%;
 				z-index: 1000;
 			}
+			
+			.bt-menu:hover {
+				background: transparent;
+			}
 
 			.menu_bar .bt-menu{
 				display: block;
@@ -539,10 +553,10 @@
 				float: right;
 				font-size: 40px;
 			}
-
+/*
 			header nav ul li:hover{
 				background-color: #e4c35f;
-			}
+			}*/
 			
 			.bt-menu{
 				border-radius: 0px; 
@@ -562,6 +576,11 @@
 			.sub{
 				display: block;
 			}
+
+			.bt-nominaciones{
+				display: block;
+			}
+
 	}	
 
 /* MEDIA 550 */
@@ -571,14 +590,14 @@
 		}
 
 		form{
-			top:1em;
+			top:1.5em;
 			width: 100%;
 			display: inline-block;
 		}
 
 		form input{
 			display: inline-block;
-			width: 48%;
+			width: 45%;
 		}
 
 	}
