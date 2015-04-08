@@ -16,7 +16,8 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', login),
-    
+    url(r'^signup/', signup),
+	url(r'^logout/', logout),
     url(r'^CompuChill/',CompuChill),
     url(r'^CompuGordito/',CompuGordito),
     url(r'^CompuProductista/',CompuProductista),
@@ -33,7 +34,4 @@ urlpatterns = patterns('',
     url(r'^CompuPro/',CompuPro),
     url(r'^CompuPapi/',CompuPapi),
     url(r'^CompuMami/',CompuMami),
-
-	url(r'^signup$', signup),
-	url(r'^logout$', logout),
 ) + static(settings.STATIC_URL,)

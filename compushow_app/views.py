@@ -1,4 +1,5 @@
-from django.shortcuts import render_to_response
+from django.shortcuts import render_to_response, redirect
+from django.core.urlresolvers import reverse
 from django.http import Http404,HttpResponse,HttpRequest
 from django.template import RequestContext
 from django.views.generic import View
@@ -6,6 +7,7 @@ from compushow_app.forms import *
 from compushow_app.models import *
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login as auth_login, logout as auth_logout
+from django.contrib.auth.decorators import login_required
 import datetime
 
 
@@ -22,7 +24,7 @@ def login(request):
 				# the password verified for the user
 				if user.is_active:
 					auth_login(request,user)
-					return render_to_response('CompuChill.html',{'form':form},context_instance=RequestContext(request))
+					return redirect('compushow_app.views.CompuChill')
 				else:
 					print("The password is valid, but the account has been disabled!")
 					return render_to_response('login.html',{'form':form},context_instance=RequestContext(request))
@@ -90,11 +92,12 @@ def signup(request):
 			password=form.cleaned_data['Password']
 			user = User.objects.create_user(carnet, '', password)
 			user.save()
-			return render_to_response('login.html',{'form':form},context_instance=RequestContext(request))
+			return redirect('compushow_app.views.login')
 	else:
 		form = Login_Signup_Form()
 	return render_to_response('signup.html',{'form':form},context_instance=RequestContext(request))
 
+@login_required(login_url='')
 def logout(request):
     auth_logout(request)
-    return render_to_response('login.html',locals(),context_instance=RequestContext(request))
+    return redirect('compushow_app.views.login')
