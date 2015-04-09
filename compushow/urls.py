@@ -14,9 +14,15 @@ urlpatterns = patterns('',
     # url(r'^$', 'compushow.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
+    # url(r'^$', loginView.as_view()),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', login),
-    url(r'^(?P<nombre>[\w]+)/$', Nominacion, name='nombre_nominacion'),
+     url(r'^$', login,name='logueate'),
+    
+    # (r'^$', 'django.contrib.auth.views.login', {'template_name': 'login.html'}),
+
 	url(r'^signup$', signup),
-	url(r'^logout/', logout),
+
+	url(r'^logout/', 'django.contrib.auth.views.logout',{'next_page':'/'} ),
+    
+    url(r'^(?P<nombre>[\w]+)/$', Nominacion, name='nombre_nominacion'),
 ) + static(settings.STATIC_URL,)

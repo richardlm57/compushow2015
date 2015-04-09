@@ -25,8 +25,7 @@
 		<input type="text" class="nombre_input" placeholder="Nombre">
 		<br>
 		<br>
-	{% endif %}
-	{% if nombre_nominacion != 'CompuLove' %}
+	{% else %}
 		<input type="text" class="nombre_input" placeholder="Nombre">
 		<br>
 		<br>
@@ -35,4 +34,16 @@
 	<div class="boton-file">FOTO:</div> 
 		<input type="file" class="file_input" name="img" accept="image/*">
 	<div class="file_text">No has escogido foto</div>
+{% endblock %}
+
+{% block sidebar %}
+	{% for n in nominaciones %}
+
+		{% if n == nombre_nominacion %}
+			<li><a href="/{{n}}/" class='selected'>{{n}}</a></li>
+		{% else %}
+			<li><a href="/{{n}}/">{{n}}</a></li>
+		{% endif %}
+
+	{% endfor %}
 {% endblock %}

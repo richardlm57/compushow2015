@@ -1,35 +1,20 @@
-from django.shortcuts import render_to_response, redirect
+from django.shortcuts import render_to_response, redirect, HttpResponseRedirect
 from django.http import Http404,HttpResponse,HttpRequest
 from django.template import RequestContext
+from django.views import generic
 from django.views.generic import View
 from compushow_app.forms import *
 from compushow_app.models import *
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login as auth_login, logout as auth_logout
 from django.contrib.auth.decorators import login_required
-import datetime
+from django.core.urlresolvers import reverse_lazy
+
 
 
 # Create your views here.
 
 def login(request):
-    nominaciones=[  'CompuChill',
-                    'CompuGordito',
-                    'CompuProductista',
-                    'CompuCartoon',
-                    'CompuComadre',
-                    'CompuCompadre',
-                    'CompuLove',
-                    'CompuCuchi',
-                    'CompuIntenso',
-                    'CompuPregunton',
-                    'CompuFitness',
-                    'CompuTeam',
-                    'CompuMaster',
-                    'CompuPro',
-                    'CompuPapi',
-                    'CompuMami']
-    nombre_nominacion="CompuChill"
     if request.method == 'POST':
         form = Login_Signup_Form(request.POST)
         if form.is_valid():
@@ -44,7 +29,7 @@ def login(request):
                     return redirect('nombre_nominacion', nombre='CompuChill')
                 else:
                     print("The password is valid, but the account has been disabled!")
-                    return render_to_response('login.html',{'form':form,'nominaciones':nominaciones,'nombre_nominacion':nombre_nominacion},context_instance=RequestContext(request))
+                    return render_to_response('login.html',{'form':form},context_instance=RequestContext(request))
             else:
                 # the authentication system was unable to verify the username and password
                 print("The username and password were incorrect.")
@@ -74,9 +59,11 @@ def Nominacion(request,nombre):
     if nombre in nominaciones:
         nombre_nominacion = nombre
         return render_to_response('nominaciones.html',locals(),context_instance=RequestContext(request))
-    else:
-        auth_logout(request)
-        return redirect('compushow_app.views.login')
+    # else:
+    #     # auth_logout(request)
+    #     # return redirect('compushow_app.views.login')
+    #     nombre_nominacion = 'WEBON'
+    #     return render_to_response('nominaciones.html',locals(),context_instance=RequestContext(request))
 
 def signup(request):
 	if request.method == 'POST':

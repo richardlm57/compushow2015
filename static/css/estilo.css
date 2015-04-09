@@ -50,6 +50,8 @@
 		display: none;
 	}
 
+
+
 /* HEADER */
 
 	header {
@@ -138,6 +140,7 @@
 			padding: 4px;
 			border-radius: 15px;
 			font-weight: bold;
+			color: #fff;
 			
 		}
 
@@ -192,18 +195,19 @@
 			text-align: justify;
 		}
 
-	/* NOMINACIONES */
+	/* NOMINACION */
 
 		.inicio{
 			overflow: visible;
 		}
 
 		.nominacion{
-			width: 100%;
+			width: 73%;
 			padding: 0px;
 			margin: 0px auto;
 			overflow:hidden;
 			text-align: center;
+			float: right;
 		}
 
 		.nominar{
@@ -224,6 +228,32 @@
 			display: none;
 		}
 
+		/* NOMINACIONES */
+
+		.nominaciones{
+			position: absolute;
+			padding: 1em;
+			margin: 0px auto;
+			overflow: hidden;
+			text-align: left;
+			width: 27%;
+			list-style: none;			
+			background-color: rgba(0,0,0, 0.3);
+		}
+
+		.titulo-side{
+			color: #fff;
+			font-size: 1.7em;
+		}
+
+		.selected{
+			color: #fff;
+		}
+			
+		.nominaciones li:hover{
+			background-color: rgba(0,0,0,0.6);
+			color: rgba(255,255,255);
+		}
 		/* NAVEGA */
 
 			.navega{
@@ -284,7 +314,6 @@
 			}
 
 		/* BOTONES NOMINAR */
-
 
 			.boton{
 				width: 50%;
@@ -553,10 +582,7 @@
 				float: right;
 				font-size: 40px;
 			}
-/*
-			header nav ul li:hover{
-				background-color: #e4c35f;
-			}*/
+
 			
 			.bt-menu{
 				border-radius: 0px; 
@@ -579,6 +605,11 @@
 
 			.bt-nominaciones{
 				display: block;
+			}
+
+			/* NOMINACIONES */
+			.nominaciones{
+				display: none;
 			}
 
 	}	
