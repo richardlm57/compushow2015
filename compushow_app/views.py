@@ -15,6 +15,9 @@ from django.core.urlresolvers import reverse_lazy
 # Create your views here.
 
 def login(request):
+    mensaje=''
+    if request.session.get('mensaje') is not None:
+        mensaje=request.session.get('mensaje')
     if request.method == 'POST':
         form = Login_Signup_Form(request.POST)
         if form.is_valid():
@@ -36,7 +39,7 @@ def login(request):
                 return render_to_response('login.html',{'form':form},context_instance=RequestContext(request))
     else:
         form = Login_Signup_Form()
-    return render_to_response('login.html',{'form':form},context_instance=RequestContext(request))
+    return render_to_response('login.html',{'form':form,'mensaje':mensaje},context_instance=RequestContext(request))
 
 @login_required(login_url='')
 def Nominacion(request,nombre):
@@ -62,7 +65,7 @@ def Nominacion(request,nombre):
     # else:
     #     # auth_logout(request)
     #     # return redirect('compushow_app.views.login')
-    #     nombre_nominacion = 'WEBON'
+    #     nombre_nominacion = 'bla'
     #     return render_to_response('nominaciones.html',locals(),context_instance=RequestContext(request))
 
 def signup(request):
@@ -73,6 +76,7 @@ def signup(request):
 			password=form.cleaned_data['Password']
 			user = User.objects.create_user(carnet, '', password)
 			user.save()
+			request.session['mensaje'] = 'Tu registro ha sido exitoso'
 			return redirect('compushow_app.views.login')
 	else:
 		form = Login_Signup_Form()
@@ -81,4 +85,5 @@ def signup(request):
 @login_required(login_url='')
 def logout(request):
     auth_logout(request)
+    request.session['mensaje'] = 'El cierre de sesión ha sido exitoso'
     return redirect('compushow_app.views.login')
