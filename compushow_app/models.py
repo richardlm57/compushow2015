@@ -10,7 +10,7 @@ ETAPAS = (
 
 class Edicion(models.Model):
     anio    = models.IntegerField(primary_key = True)
-    activa  = models.BooleanField()
+    activa  = models.BooleanField(default=False)
     etapa   = models.CharField(max_length = 1, choices = ETAPAS)
 
 # Estudiantes, profesores, agrupaciones.
@@ -32,7 +32,7 @@ class Foto(models.Model):
 class Categoria(models.Model):
     nombre      = models.CharField(max_length = 30)
     descripcion = models.CharField(max_length = 128)
-    ganador     = models.ForeignKey(Nominado, blank = True)
+    ganador     = models.ForeignKey('Nominado', blank = True)
 
     class Meta:
         ordering = ['nombre']
