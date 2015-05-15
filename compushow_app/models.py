@@ -15,7 +15,8 @@ class Edicion(models.Model):
 
 # Estudiantes, profesores, agrupaciones.
 class Computista(models.Model):
-    nombre = models.CharField(max_length = 60)
+    carnet = models.CharField(max_length = 8)
+    nombre = models.CharField(max_length = 70)
 
 class Foto(models.Model):
     imagen  = models.ImageField(upload_to = "directorioDondeSeVaAGuardar")
@@ -30,22 +31,26 @@ class Foto(models.Model):
 
 # Total de categorias del CompuShow
 class Categoria(models.Model):
-    nombre      = models.CharField(max_length = 30)
+    nombre      = models.CharField(max_length = 30, primary_key=True, unique=True)
     descripcion = models.CharField(max_length = 128)
-    ganador     = models.ForeignKey('Nominado', blank = True)
+    #ganador     = models.ForeignKey('Nominado', blank = True)
 
     class Meta:
         ordering = ['nombre']
 
+    def nominados(self):
+        pass
+
+'''
 class Nominacion(models.Model):
     categoria = models.ForeignKey(Categoria)
 
     def nominados(self):
-        pass
+        pass'''
 
 class Nominado(models.Model):
     computista  = models.ForeignKey(Computista)
-    nominacion  = models.ForeignKey(Nominacion)
+    categoria = models.ForeignKey(Categoria)
     foto        = models.ForeignKey(Foto)
 
 # Faltan votaciones
