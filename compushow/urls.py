@@ -23,6 +23,12 @@ urlpatterns = patterns('',
 	url(r'^signup$', signup),
 
 	url(r'^logout/', logout ),
+
+    url(r'^api/get_computistas/', 'compushow_app.views.get_computistas'),
     
-    url(r'^(?P<nombre>[\w]+)/$', Nominacion, name='nombre_nominacion'),
+    url(r'^api/get_computistas_nombre/', 'compushow_app.views.get_computistas_nombre'),
+
+    url(r'^user/(?P<idU>[\w]+)/$', 'compushow_app.views.wellcome', name='bien'),
+    
+    url(r'^user/(?P<idU>[\w]+)/nominacion/(?P<name>[\w]+)/$', nominacion, name='nombre_nominacion'),
 ) + static(settings.STATIC_URL,)

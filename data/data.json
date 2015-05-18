@@ -1,0 +1,2834 @@
+[
+{
+    "model": "compushow_app.computista",
+    "pk": 1,
+    "fields": {
+        "carnet": "03-36048",
+        "nombre": "Maria Gracia Hidalgo Sulbaran"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 2,
+    "fields": {
+        "carnet": "03-36270",
+        "nombre": "Germán Antonio Pabón Briceño"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 3,
+    "fields": {
+        "carnet": "05-38040",
+        "nombre": "Jose A Cipagauta Rodriguez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 4,
+    "fields": {
+        "carnet": "05-38194",
+        "nombre": "Ivanhoe Gamarra Ramirez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 5,
+    "fields": {
+        "carnet": "05-38783",
+        "nombre": "Angelica L Ramos Pereira"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 6,
+    "fields": {
+        "carnet": "05-39081",
+        "nombre": "Fernando E Zerpa Rivas"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 7,
+    "fields": {
+        "carnet": "06-39548",
+        "nombre": "David E Franco Graterol"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 8,
+    "fields": {
+        "carnet": "06-39726",
+        "nombre": "Fernando E Herrera S"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 9,
+    "fields": {
+        "carnet": "06-39741",
+        "nombre": "Alexis R Ibarra Salas"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 10,
+    "fields": {
+        "carnet": "06-39883",
+        "nombre": "Nicolas Eduardo Mañan Paolone"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 11,
+    "fields": {
+        "carnet": "06-39889",
+        "nombre": "Sergio Alejandro Medina Perez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 12,
+    "fields": {
+        "carnet": "06-40095",
+        "nombre": "Leopoldo J Pimentel Ripanti"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 13,
+    "fields": {
+        "carnet": "06-40189",
+        "nombre": "Carlos L Rodriguez Alvarez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 14,
+    "fields": {
+        "carnet": "06-40232",
+        "nombre": "Hetsy Milagros Rodriguez Viafara"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 15,
+    "fields": {
+        "carnet": "06-40233",
+        "nombre": "Ronier A Rodriguez Villegas"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 16,
+    "fields": {
+        "carnet": "06-40342",
+        "nombre": "Christian Socorro Gil"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 17,
+    "fields": {
+        "carnet": "07-40913",
+        "nombre": "Angel Roso Franco Carvajal"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 18,
+    "fields": {
+        "carnet": "07-40919",
+        "nombre": "Carlos Alberto Gabidia Garcia"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 19,
+    "fields": {
+        "carnet": "07-41206",
+        "nombre": "Brian-Marcial Mendoza Bollam"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 20,
+    "fields": {
+        "carnet": "07-41249",
+        "nombre": "Jonathan J Moreno Correa"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 21,
+    "fields": {
+        "carnet": "07-41311",
+        "nombre": "Alvaro Jesús Parada Gamboa"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 22,
+    "fields": {
+        "carnet": "07-41329",
+        "nombre": "Dennis Esteban Perez Camacho"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 23,
+    "fields": {
+        "carnet": "07-41384",
+        "nombre": "Alejandra Alhelí Preciado Llanos"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 24,
+    "fields": {
+        "carnet": "07-41475",
+        "nombre": "Daniel Alejandro Rodriguez Tinoco"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 25,
+    "fields": {
+        "carnet": "07-41618",
+        "nombre": "Diana Karina Vainberg Gauna"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 26,
+    "fields": {
+        "carnet": "07-41654",
+        "nombre": "Nilver Fernando Viera Araujo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 27,
+    "fields": {
+        "carnet": "08-10037",
+        "nombre": "Karla Oriam Alzuro Gonzalez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 28,
+    "fields": {
+        "carnet": "08-10080",
+        "nombre": "Dimitri Jose Avila Iriarte"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 29,
+    "fields": {
+        "carnet": "08-10091",
+        "nombre": "Vanessa Kleymar Balleste Vera"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 30,
+    "fields": {
+        "carnet": "08-10218",
+        "nombre": "Johanna Chui Ling Chan Fernandez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 31,
+    "fields": {
+        "carnet": "08-10223",
+        "nombre": "Susana Charara Charara"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 32,
+    "fields": {
+        "carnet": "08-10301",
+        "nombre": "Erik Carlos Dell Salas"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 33,
+    "fields": {
+        "carnet": "08-10383",
+        "nombre": "Gabriel Alejandro Freites Melero"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 34,
+    "fields": {
+        "carnet": "08-10398",
+        "nombre": "Alejandro Jose Garbi Moya"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 35,
+    "fields": {
+        "carnet": "08-10462",
+        "nombre": "Betzabeth Carolina Gonzalez Canonico"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 36,
+    "fields": {
+        "carnet": "08-10464",
+        "nombre": "Fernando Antonio Gonzalez Dulanto"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 37,
+    "fields": {
+        "carnet": "08-10479",
+        "nombre": "David Enrique Goudet Diaz"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 38,
+    "fields": {
+        "carnet": "08-10519",
+        "nombre": "Roshanak Hannani Delgado"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 39,
+    "fields": {
+        "carnet": "08-10596",
+        "nombre": "Giuli Antonieta Latella Ardizzone"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 40,
+    "fields": {
+        "carnet": "08-10616",
+        "nombre": "Ricardo Francisco Lira Quintero"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 41,
+    "fields": {
+        "carnet": "08-10722",
+        "nombre": "Agustin Ignacio Medrano Navarro"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 42,
+    "fields": {
+        "carnet": "08-10734",
+        "nombre": "José Noel Mendoza Bastidas"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 43,
+    "fields": {
+        "carnet": "08-10770",
+        "nombre": "Bernardo Jose Morales Gonzalez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 44,
+    "fields": {
+        "carnet": "08-10792",
+        "nombre": "Carla Nardone Gonzalez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 45,
+    "fields": {
+        "carnet": "08-10804",
+        "nombre": "Andel Nuñez Michelena"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 46,
+    "fields": {
+        "carnet": "08-10852",
+        "nombre": "Roso Antonio Peñaranda Peñaranda"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 47,
+    "fields": {
+        "carnet": "08-10881",
+        "nombre": "Aquilino Enrique Pinto Andrades"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 48,
+    "fields": {
+        "carnet": "08-11021",
+        "nombre": "Gabriel Alejandro Russo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 49,
+    "fields": {
+        "carnet": "08-11027",
+        "nombre": "Fernando Andres Sahmkow Beicos"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 50,
+    "fields": {
+        "carnet": "08-11131",
+        "nombre": "Ivan Andres Travecedo Peña"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 51,
+    "fields": {
+        "carnet": "08-11196",
+        "nombre": "Juan Carlos Viña Bello"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 52,
+    "fields": {
+        "carnet": "08-11216",
+        "nombre": "Daniel Elias Zeait Abi Mussa"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 53,
+    "fields": {
+        "carnet": "08-11369",
+        "nombre": "Iranid del Carmen Pérez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 54,
+    "fields": {
+        "carnet": "09-10029",
+        "nombre": "Gabriel Armando Alvarez Ramirez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 55,
+    "fields": {
+        "carnet": "09-10055",
+        "nombre": "Juan Carlos Arocha Ovalles"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 56,
+    "fields": {
+        "carnet": "09-10066",
+        "nombre": "Gabriel Lee Austin Osorio"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 57,
+    "fields": {
+        "carnet": "09-10093",
+        "nombre": "Neylin Adriana Belisario Sanjuan"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 58,
+    "fields": {
+        "carnet": "09-10102",
+        "nombre": "Katrin Karina Bethencourt Ramos"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 59,
+    "fields": {
+        "carnet": "09-10118",
+        "nombre": "Oscar Jose Burguillos Andrade"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 60,
+    "fields": {
+        "carnet": "09-10123",
+        "nombre": "David Gonzalo Caicedo Mora"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 61,
+    "fields": {
+        "carnet": "09-10146",
+        "nombre": "Gerardo Rafael Castañeda Konig"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 62,
+    "fields": {
+        "carnet": "09-10203",
+        "nombre": "Stefano Gabriele De Colli Di Lallo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 63,
+    "fields": {
+        "carnet": "09-10219",
+        "nombre": "Jose Ignacio Delgado Campos"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 64,
+    "fields": {
+        "carnet": "09-10234",
+        "nombre": "Alejandro Diaz Gonzalez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 65,
+    "fields": {
+        "carnet": "09-10236",
+        "nombre": "Andrea Carolina Diaz Mora"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 66,
+    "fields": {
+        "carnet": "09-10270",
+        "nombre": "Carlos Adrian Farinha Couce"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 67,
+    "fields": {
+        "carnet": "09-10285",
+        "nombre": "Matteo Jose Ferrando Briceño"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 68,
+    "fields": {
+        "carnet": "09-10309",
+        "nombre": "Francisco Xavier Gamundi Aranda"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 69,
+    "fields": {
+        "carnet": "09-10329",
+        "nombre": "Maria Gabriela Gimenez Rodriguez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 70,
+    "fields": {
+        "carnet": "09-10337",
+        "nombre": "Anna Beatrix Gòmez Dìaz"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 71,
+    "fields": {
+        "carnet": "09-10381",
+        "nombre": "Christhian Jesus Guevara Valencia"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 72,
+    "fields": {
+        "carnet": "09-10430",
+        "nombre": "Alessandro Augusto La Corte Romagni"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 73,
+    "fields": {
+        "carnet": "09-10444",
+        "nombre": "David Alejandro Lilue Borrero"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 74,
+    "fields": {
+        "carnet": "09-10451",
+        "nombre": "Catherine Elena Lollett Paraponiaris"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 75,
+    "fields": {
+        "carnet": "09-10461",
+        "nombre": "Juan Jose Lovera Brito"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 76,
+    "fields": {
+        "carnet": "09-10478",
+        "nombre": "Andreina Milagros Marcano Pacheco"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 77,
+    "fields": {
+        "carnet": "09-10502",
+        "nombre": "Francisco Antonio Martinez Medina"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 78,
+    "fields": {
+        "carnet": "09-10562",
+        "nombre": "Aileen Gabriela Moreno Perez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 79,
+    "fields": {
+        "carnet": "09-10590",
+        "nombre": "Gustavo Alberto Ortega Martinez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 80,
+    "fields": {
+        "carnet": "09-10599",
+        "nombre": "Franklin David Padilla Padilla"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 81,
+    "fields": {
+        "carnet": "09-10672",
+        "nombre": "Carlo Emigdio Polisano Sanchez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 82,
+    "fields": {
+        "carnet": "09-10676",
+        "nombre": "Rebecca Beatriz Porras Carta"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 83,
+    "fields": {
+        "carnet": "09-10703",
+        "nombre": "Patrick Samuel Rengifo Mezerhane"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 84,
+    "fields": {
+        "carnet": "09-10728",
+        "nombre": "Samuel Jose Rodriguez Da Silva"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 85,
+    "fields": {
+        "carnet": "09-10735",
+        "nombre": "Daniela Andreina Rodriguez Muñoz"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 86,
+    "fields": {
+        "carnet": "09-10794",
+        "nombre": "Fernando Miguel Saraiva De Almeida"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 87,
+    "fields": {
+        "carnet": "09-10797",
+        "nombre": "Nelson Avelino Saturno Teles"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 88,
+    "fields": {
+        "carnet": "09-10832",
+        "nombre": "Victor Julio Suniaga Martin"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 89,
+    "fields": {
+        "carnet": "09-10870",
+        "nombre": "Edgar Daniel Valderrama Bacilio"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 90,
+    "fields": {
+        "carnet": "09-10894",
+        "nombre": "Ricardo Andres Vethencourt Mistage"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 91,
+    "fields": {
+        "carnet": "09-10912",
+        "nombre": "Michael Woo Vargas"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 92,
+    "fields": {
+        "carnet": "09-10919",
+        "nombre": "Patricia Alexandra Zambrano Salinas"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 93,
+    "fields": {
+        "carnet": "09-10927",
+        "nombre": "Lairon Alexander Acosta Guardias"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 94,
+    "fields": {
+        "carnet": "09-10963",
+        "nombre": "Luis Manuel Garcia Herrera"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 95,
+    "fields": {
+        "carnet": "09-10971",
+        "nombre": "Alejandro Jesus Guevara Allen"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 96,
+    "fields": {
+        "carnet": "09-10977",
+        "nombre": "Daniel Alexis Leones Arevalo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 97,
+    "fields": {
+        "carnet": "09-10981",
+        "nombre": "Erick Xavier Marrero Perez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 98,
+    "fields": {
+        "carnet": "09-11006",
+        "nombre": "Jose Julian Prado Rangel"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 99,
+    "fields": {
+        "carnet": "09-11020",
+        "nombre": "Luiscarlo Rivera Arias"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 100,
+    "fields": {
+        "carnet": "09-11023",
+        "nombre": "Honorio Jose Rodriguez Morelo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 101,
+    "fields": {
+        "carnet": "09-11086",
+        "nombre": "Luis Edgardo Colorado Sanchez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 102,
+    "fields": {
+        "carnet": "09-11100",
+        "nombre": "Stephanie Rocio Espinoza Poveda"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 103,
+    "fields": {
+        "carnet": "09-11133",
+        "nombre": "Jorge Luis Leon Gutierrez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 104,
+    "fields": {
+        "carnet": "09-11163",
+        "nombre": "Gerel Enrique Negreira Peruzzi"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 105,
+    "fields": {
+        "carnet": "09-11173",
+        "nombre": "Juan Antonio Pereira Da Silva"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 106,
+    "fields": {
+        "carnet": "09-11175",
+        "nombre": "Vanessa Perez Bermudez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 107,
+    "fields": {
+        "carnet": "09-11207",
+        "nombre": "Gustavo Enrique Siñovsky Sanchez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 108,
+    "fields": {
+        "carnet": "09-11221",
+        "nombre": "Jhon Alvaro Villamizar Mogollon"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 109,
+    "fields": {
+        "carnet": "09-11237",
+        "nombre": "Cinthya Carolina Ramos Gómez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 110,
+    "fields": {
+        "carnet": "09-11245",
+        "nombre": "Chi Seng Ng Yu"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 111,
+    "fields": {
+        "carnet": "09-11259",
+        "nombre": "Sergio Luis Medina Hernandez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 112,
+    "fields": {
+        "carnet": "09-11286",
+        "nombre": "Adriana Patricia Devera La Rosa"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 113,
+    "fields": {
+        "carnet": "10-10005",
+        "nombre": "Fabiana Jose Acosta Diaz"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 114,
+    "fields": {
+        "carnet": "10-10055",
+        "nombre": "Wilmer Rafael Bandres Hernandez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 115,
+    "fields": {
+        "carnet": "10-10056",
+        "nombre": "Paul Javier Baptista Rivas"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 116,
+    "fields": {
+        "carnet": "10-10088",
+        "nombre": "Stefany Daniela Botero Mendoza"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 117,
+    "fields": {
+        "carnet": "10-10105",
+        "nombre": "Samantha Elizabeth Campisi De Sousa"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 118,
+    "fields": {
+        "carnet": "10-10122",
+        "nombre": "Maria Esther Carrillo Grasso"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 119,
+    "fields": {
+        "carnet": "10-10132",
+        "nombre": "Fabio Alexander Castro Martinez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 120,
+    "fields": {
+        "carnet": "10-10138",
+        "nombre": "Andrea Victoria Centeno Lopez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 121,
+    "fields": {
+        "carnet": "10-10164",
+        "nombre": "Salvador Ricardo Covelo Mosquera"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 122,
+    "fields": {
+        "carnet": "10-10168",
+        "nombre": "Carlos Enrique Cruz Puigbo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 123,
+    "fields": {
+        "carnet": "10-10175",
+        "nombre": "Carlos Fernando Da Silva Diaz"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 124,
+    "fields": {
+        "carnet": "10-10179",
+        "nombre": "Emmanuel Jose De Aguiar Silva"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 125,
+    "fields": {
+        "carnet": "10-10193",
+        "nombre": "Mathieu Enrique De Valery Fernandez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 126,
+    "fields": {
+        "carnet": "10-10195",
+        "nombre": "Alfredo Alejandro Delgado Lopez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 127,
+    "fields": {
+        "carnet": "10-10200",
+        "nombre": "Luigi Di Martino"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 128,
+    "fields": {
+        "carnet": "10-10222",
+        "nombre": "Jose Daniel Duran Toro"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 129,
+    "fields": {
+        "carnet": "10-10231",
+        "nombre": "Paolangela Espinal Useche"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 130,
+    "fields": {
+        "carnet": "10-10239",
+        "nombre": "Luis Daniel Fernandes Rotger"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 131,
+    "fields": {
+        "carnet": "10-10245",
+        "nombre": "Jose Manuel Figueredo Fortes"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 132,
+    "fields": {
+        "carnet": "10-10251",
+        "nombre": "Clint Wilman Fontalvo Orozco"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 133,
+    "fields": {
+        "carnet": "10-10264",
+        "nombre": "Maria Lourdes Garcia Florez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 134,
+    "fields": {
+        "carnet": "10-10272",
+        "nombre": "Gabriel Augusto Gedler Hernandez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 135,
+    "fields": {
+        "carnet": "10-10285",
+        "nombre": "Victor Alejandro Gomez Molina"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 136,
+    "fields": {
+        "carnet": "10-10290",
+        "nombre": "Arleyn Yoandra Goncalves Lorca"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 137,
+    "fields": {
+        "carnet": "10-10292",
+        "nombre": "Hector Alejandro Goncalves Pita"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 138,
+    "fields": {
+        "carnet": "10-10300",
+        "nombre": "Carlos Daniel Gonzalez Cedillo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 139,
+    "fields": {
+        "carnet": "10-10305",
+        "nombre": "Josif Alesandro Gonzalez Gonzalez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 140,
+    "fields": {
+        "carnet": "10-10330",
+        "nombre": "Andres Miguel Guerrero Silva"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 141,
+    "fields": {
+        "carnet": "10-10333",
+        "nombre": "Alejandro Rene Guillen Vera"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 142,
+    "fields": {
+        "carnet": "10-10340",
+        "nombre": "Tomas Eduardo Guzman Irsay"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 143,
+    "fields": {
+        "carnet": "10-10341",
+        "nombre": "Andres Jose Guzman Melendez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 144,
+    "fields": {
+        "carnet": "10-10352",
+        "nombre": "Valentina Hernandez Mogollon"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 145,
+    "fields": {
+        "carnet": "10-10353",
+        "nombre": "Andres Rafael Hernandez Monterola"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 146,
+    "fields": {
+        "carnet": "10-10413",
+        "nombre": "Jan Manuel Marcano Ortiz"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 147,
+    "fields": {
+        "carnet": "10-10419",
+        "nombre": "Daniel Arturo Marin Tirado"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 148,
+    "fields": {
+        "carnet": "10-10445",
+        "nombre": "Cristian Adrian Medina Villarroel"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 149,
+    "fields": {
+        "carnet": "10-10459",
+        "nombre": "Luis Alberto Miglietti Garcia"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 150,
+    "fields": {
+        "carnet": "10-10463",
+        "nombre": "Luis Cesar Miranda Mogollon"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 151,
+    "fields": {
+        "carnet": "10-10469",
+        "nombre": "Jose Andres Montenegro Avariano"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 152,
+    "fields": {
+        "carnet": "10-10488",
+        "nombre": "Edwin Arturo Murillo Paez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 153,
+    "fields": {
+        "carnet": "10-10498",
+        "nombre": "Carlos Ignacio Noria Marrero"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 154,
+    "fields": {
+        "carnet": "10-10517",
+        "nombre": "Daniela Mercedes Ortiz Sanchez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 155,
+    "fields": {
+        "carnet": "10-10524",
+        "nombre": "Manuel Alejandro Pacheco Moreno"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 156,
+    "fields": {
+        "carnet": "10-10534",
+        "nombre": "Jesus Adolfo Parra Parra"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 157,
+    "fields": {
+        "carnet": "10-10539",
+        "nombre": "Daniel Enrique Pelayo Useche"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 158,
+    "fields": {
+        "carnet": "10-10547",
+        "nombre": "Larry Jhosue Perez Gonzalez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 159,
+    "fields": {
+        "carnet": "10-10548",
+        "nombre": "Pedro Miguel Perez Gonzalez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 160,
+    "fields": {
+        "carnet": "10-10569",
+        "nombre": "Karen Maria Pizarro Ruiz"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 161,
+    "fields": {
+        "carnet": "10-10572",
+        "nombre": "Carlos Aser Plantijn Conde"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 162,
+    "fields": {
+        "carnet": "10-10581",
+        "nombre": "Alejandro Arturo Pumpido Ochoa"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 163,
+    "fields": {
+        "carnet": "10-10603",
+        "nombre": "Sahid Gabriel Reyes Tabja"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 164,
+    "fields": {
+        "carnet": "10-10605",
+        "nombre": "Roberto Rinaldi Troiano"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 165,
+    "fields": {
+        "carnet": "10-10608",
+        "nombre": "Vanessa Eleonora Rivas Serio"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 166,
+    "fields": {
+        "carnet": "10-10613",
+        "nombre": "Leslie Angelica Rodrigues Agrela"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 167,
+    "fields": {
+        "carnet": "10-10615",
+        "nombre": "Dayana Carolina Rodrigues Peña"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 168,
+    "fields": {
+        "carnet": "10-10640",
+        "nombre": "Donato Antonio Rolo Andrade"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 169,
+    "fields": {
+        "carnet": "10-10642",
+        "nombre": "Roberto Antonio Romero Barrientos"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 170,
+    "fields": {
+        "carnet": "10-10666",
+        "nombre": "Andrea Carolina Salcedo Lugo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 171,
+    "fields": {
+        "carnet": "10-10671",
+        "nombre": "Hector Eduardo Sanchez Alfonzo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 172,
+    "fields": {
+        "carnet": "10-10717",
+        "nombre": "Francisco Javier Sucre Gonzalez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 173,
+    "fields": {
+        "carnet": "10-10729",
+        "nombre": "Reinaldo Ignacio Torres Semprun"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 174,
+    "fields": {
+        "carnet": "10-10738",
+        "nombre": "Abelardo Jesus Valiño Ovalle"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 175,
+    "fields": {
+        "carnet": "10-10757",
+        "nombre": "Reinaldo Enrique Verdugo Chavez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 176,
+    "fields": {
+        "carnet": "10-10774",
+        "nombre": "Arturo Voltattorni Castaño"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 177,
+    "fields": {
+        "carnet": "10-10797",
+        "nombre": "Joel Orlando Araujo Dos Santos"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 178,
+    "fields": {
+        "carnet": "10-10800",
+        "nombre": "Jose Manuel Barrientos Linares"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 179,
+    "fields": {
+        "carnet": "10-10824",
+        "nombre": "Christopher Alexander Flores Bracho"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 180,
+    "fields": {
+        "carnet": "10-10839",
+        "nombre": "Jose Luis Jimenez Betancourt"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 181,
+    "fields": {
+        "carnet": "10-10849",
+        "nombre": "Ramon Alberto Marquez Argüello"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 182,
+    "fields": {
+        "carnet": "10-10870",
+        "nombre": "Midaysa Nathalie Palacios Gómez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 183,
+    "fields": {
+        "carnet": "10-10898",
+        "nombre": "Jesus Humberto Sanchez Perez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 184,
+    "fields": {
+        "carnet": "10-10916",
+        "nombre": "Patricia Roxana Valencia Gomez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 185,
+    "fields": {
+        "carnet": "10-10931",
+        "nombre": "Jhoannys Carolina Sanchez Marquez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 186,
+    "fields": {
+        "carnet": "10-10940",
+        "nombre": "Aldrix José Marfil Valera"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 187,
+    "fields": {
+        "carnet": "10-10969",
+        "nombre": "Samuel Alejandro Arleo Rodriguez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 188,
+    "fields": {
+        "carnet": "10-11005",
+        "nombre": "Yezabel Drusila Rincon Leon"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 189,
+    "fields": {
+        "carnet": "10-11036",
+        "nombre": "Gabriel Formica Bolaños"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 190,
+    "fields": {
+        "carnet": "10-11039",
+        "nombre": "Shamuel Manuel Manrrique Aquino"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 191,
+    "fields": {
+        "carnet": "10-11121",
+        "nombre": "Edward Antonio Fernandez Silva"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 192,
+    "fields": {
+        "carnet": "10-11147",
+        "nombre": "Maria Alexandra Bracamonte Quintero"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 193,
+    "fields": {
+        "carnet": "10-11148",
+        "nombre": "Jose Ramon Herradez Hernandez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 194,
+    "fields": {
+        "carnet": "10-11150",
+        "nombre": "Luisana Elizabeth Gonzalez Subero"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 195,
+    "fields": {
+        "carnet": "10-11246",
+        "nombre": "Bárbara Macarena Hernández Ledón"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 196,
+    "fields": {
+        "carnet": "10-11247",
+        "nombre": "Rosangelis Veronica Garcia Dorta"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 197,
+    "fields": {
+        "carnet": "10-11248",
+        "nombre": "Oriana Gabriela Graterol Sanchez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 198,
+    "fields": {
+        "carnet": "10-11252",
+        "nombre": "Esteban Jose Oliveros De Freitas"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 199,
+    "fields": {
+        "carnet": "10-11256",
+        "nombre": "Willian Gabriel Gonzalez Garcia"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 200,
+    "fields": {
+        "carnet": "11-10005",
+        "nombre": "Moisés Ackerman Lañado"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 201,
+    "fields": {
+        "carnet": "11-10031",
+        "nombre": "Antonio Jose Alvarez Gomez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 202,
+    "fields": {
+        "carnet": "11-10053",
+        "nombre": "Amin Alejandro Arria Meza"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 203,
+    "fields": {
+        "carnet": "11-10058",
+        "nombre": "Domingo Enrique Arteaga Gutierrez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 204,
+    "fields": {
+        "carnet": "11-10075",
+        "nombre": "Jonathan Jesus Bandes"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 205,
+    "fields": {
+        "carnet": "11-10088",
+        "nombre": "Sergio Luis Barrios Palacios"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 206,
+    "fields": {
+        "carnet": "11-10092",
+        "nombre": "Andersson Enrique Becerra Colmenares"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 207,
+    "fields": {
+        "carnet": "11-10093",
+        "nombre": "María Estefanía Bello Yajure"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 208,
+    "fields": {
+        "carnet": "11-10097",
+        "nombre": "Gustavo Enrique Benzecri Hernández"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 209,
+    "fields": {
+        "carnet": "11-10103",
+        "nombre": "Guillermo José Betancourt García"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 210,
+    "fields": {
+        "carnet": "11-10104",
+        "nombre": "Cristina Elena Betancourt Macero"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 211,
+    "fields": {
+        "carnet": "11-10106",
+        "nombre": "Emilio Blanco Kobernyk"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 212,
+    "fields": {
+        "carnet": "11-10121",
+        "nombre": "Juan Jose Bracho Sanchez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 213,
+    "fields": {
+        "carnet": "11-10156",
+        "nombre": "Jose Gregorio Carmona Barazarte"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 214,
+    "fields": {
+        "carnet": "11-10199",
+        "nombre": "Jonnathan Chiu Yung Ng Ho"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 215,
+    "fields": {
+        "carnet": "11-10200",
+        "nombre": "Ricardo Alejandro Churión Cortez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 216,
+    "fields": {
+        "carnet": "11-10235",
+        "nombre": "Roberto Alejandro Cámara Rodríguez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 217,
+    "fields": {
+        "carnet": "11-10237",
+        "nombre": "Daniel Alberto Cárdenas Pérez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 218,
+    "fields": {
+        "carnet": "11-10267",
+        "nombre": "Marisela Andrea Del Valle Morillo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 219,
+    "fields": {
+        "carnet": "11-10278",
+        "nombre": "Albert Edinson Diaz Granados"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 220,
+    "fields": {
+        "carnet": "11-10293",
+        "nombre": "Luis Carlos Díaz Ruiz"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 221,
+    "fields": {
+        "carnet": "11-10323",
+        "nombre": "Carlos Alejandro Ferreira Pereira"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 222,
+    "fields": {
+        "carnet": "11-10328",
+        "nombre": "Mónica Andreína Figuera Yuncosa"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 223,
+    "fields": {
+        "carnet": "11-10365",
+        "nombre": "Rosana De Los Ángeles García Pérez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 224,
+    "fields": {
+        "carnet": "11-10371",
+        "nombre": "Virginia Elizabeth Gil Vásquez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 225,
+    "fields": {
+        "carnet": "11-10375",
+        "nombre": "Manuel Alejandro Gomes González"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 226,
+    "fields": {
+        "carnet": "11-10390",
+        "nombre": "Manuel Guillermo Gonzalez Malave"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 227,
+    "fields": {
+        "carnet": "11-10396",
+        "nombre": "Isaac Albenis Gonzalez Valiente"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 228,
+    "fields": {
+        "carnet": "11-10406",
+        "nombre": "Moisés De Jesús González Salas"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 229,
+    "fields": {
+        "carnet": "11-10457",
+        "nombre": "Jean Piero Hernández Meze"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 230,
+    "fields": {
+        "carnet": "11-10476",
+        "nombre": "Gabriel Enrique Iglesias Monedero"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 231,
+    "fields": {
+        "carnet": "11-10477",
+        "nombre": "Enrique Antonio Iglesias Vidal"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 232,
+    "fields": {
+        "carnet": "11-10495",
+        "nombre": "María Victoria Jorge Mauriello"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 233,
+    "fields": {
+        "carnet": "11-10500",
+        "nombre": "David Enrique Klie Vasquez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 234,
+    "fields": {
+        "carnet": "11-10502",
+        "nombre": "Giancarlo Stephan Lago Ibañez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 235,
+    "fields": {
+        "carnet": "11-10507",
+        "nombre": "Cárol Sofía Landaeta Farías"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 236,
+    "fields": {
+        "carnet": "11-10508",
+        "nombre": "Richard Alejandro Lares Mejías"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 237,
+    "fields": {
+        "carnet": "11-10552",
+        "nombre": "Javier Alejandro López Lombano"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 238,
+    "fields": {
+        "carnet": "11-10566",
+        "nombre": "Jorge Enrique Marcano Dutkowski"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 239,
+    "fields": {
+        "carnet": "11-10569",
+        "nombre": "Francisco Marcos Lombardi"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 240,
+    "fields": {
+        "carnet": "11-10576",
+        "nombre": "Leonardo Rafael Martinez Azuaje"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 241,
+    "fields": {
+        "carnet": "11-10584",
+        "nombre": "Carlos Rodrigo Martínez Díaz"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 242,
+    "fields": {
+        "carnet": "11-10683",
+        "nombre": "Nabil Jesús Márquez Villarroel"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 243,
+    "fields": {
+        "carnet": "11-10684",
+        "nombre": "Ricardo Eugenio Münch Casanova"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 244,
+    "fields": {
+        "carnet": "11-10686",
+        "nombre": "Rossy Carolina Naranjo Diaz"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 245,
+    "fields": {
+        "carnet": "11-10688",
+        "nombre": "Andrés Orlando Navarro Gutierrez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 246,
+    "fields": {
+        "carnet": "11-10740",
+        "nombre": "Luis Alberto Paredes Salazar"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 247,
+    "fields": {
+        "carnet": "11-10745",
+        "nombre": "Jose Daniel Patiño Macedo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 248,
+    "fields": {
+        "carnet": "11-10775",
+        "nombre": "José Eduardo Peña Vera"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 249,
+    "fields": {
+        "carnet": "11-10798",
+        "nombre": "Ysmar Yoleth Portillo Rodriguez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 250,
+    "fields": {
+        "carnet": "11-10801",
+        "nombre": "Johanny Raquel Prado Garcia"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 251,
+    "fields": {
+        "carnet": "11-10851",
+        "nombre": "Patricia Estefani Reinoso Arevalo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 252,
+    "fields": {
+        "carnet": "11-10866",
+        "nombre": "Joel Jesus Rivas Andara"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 253,
+    "fields": {
+        "carnet": "11-10874",
+        "nombre": "Kervyn Johan Rivero Mujica"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 254,
+    "fields": {
+        "carnet": "11-10876",
+        "nombre": "Yerson Roa Rubio"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 255,
+    "fields": {
+        "carnet": "11-10893",
+        "nombre": "Susana De Jesus Rodríguez Mago"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 256,
+    "fields": {
+        "carnet": "11-10924",
+        "nombre": "Hanssen Adolfo Salas Cueto"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 257,
+    "fields": {
+        "carnet": "11-10935",
+        "nombre": "Genessis Karolina Sanchez Centeno"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 258,
+    "fields": {
+        "carnet": "11-10939",
+        "nombre": "Meggie Ariana Sanchez Zambrano"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 259,
+    "fields": {
+        "carnet": "11-10957",
+        "nombre": "Antonio Alejandro Scaramazza Cortiñas"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 260,
+    "fields": {
+        "carnet": "11-10968",
+        "nombre": "Edgar José Silva Rengel"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 261,
+    "fields": {
+        "carnet": "11-10969",
+        "nombre": "Erick Gabriel Silva Rodriguez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 262,
+    "fields": {
+        "carnet": "11-10979",
+        "nombre": "Daniela Ohana Socas Gil"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 263,
+    "fields": {
+        "carnet": "11-10987",
+        "nombre": "Carlos Adolfo Spaggiari Roa"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 264,
+    "fields": {
+        "carnet": "11-11016",
+        "nombre": "Christian Antonio Teixeira Gomes"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 265,
+    "fields": {
+        "carnet": "11-11020",
+        "nombre": "Sergio Alejandro Terán Zambrano"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 266,
+    "fields": {
+        "carnet": "11-11027",
+        "nombre": "Douglas Enrique Torres Cuevas"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 267,
+    "fields": {
+        "carnet": "11-11094",
+        "nombre": "José Antonio Álamo Vallejo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 268,
+    "fields": {
+        "carnet": "11-11145",
+        "nombre": "Andrea Cutillas Boschetti"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 269,
+    "fields": {
+        "carnet": "11-11197",
+        "nombre": "Gaetano Armando Garofalo Jasan"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 270,
+    "fields": {
+        "carnet": "11-11211",
+        "nombre": "Hosmar Armando Colmenares Rodriguez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 271,
+    "fields": {
+        "carnet": "11-11264",
+        "nombre": "Oscar Enrique Guillen Rodriguez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 272,
+    "fields": {
+        "carnet": "11-11274",
+        "nombre": "Ricardo Andres Di Zio Castillo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 273,
+    "fields": {
+        "carnet": "11-11392",
+        "nombre": "Román Jesús Camacho Ramírez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 274,
+    "fields": {
+        "carnet": "11-11394",
+        "nombre": "Stefani Carolina Castellanos Torres"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 275,
+    "fields": {
+        "carnet": "11-11398",
+        "nombre": "Marielena Aizaga Graterol"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 276,
+    "fields": {
+        "carnet": "11-11509",
+        "nombre": "Ariela Pardo Di Candia"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 277,
+    "fields": {
+        "carnet": "12-10020",
+        "nombre": "Germain Jose Perdomo Perdomo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 278,
+    "fields": {
+        "carnet": "12-10105",
+        "nombre": "Yilmar Teresa Gómez Vasquez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 279,
+    "fields": {
+        "carnet": "12-10116",
+        "nombre": "Gabriela Del Carmen Díaz Marin"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 280,
+    "fields": {
+        "carnet": "12-10199",
+        "nombre": "Nairelys Josefina Hernandez Sanchez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 281,
+    "fields": {
+        "carnet": "12-10229",
+        "nombre": "Pedro Alejandro Rondon Herrera"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 282,
+    "fields": {
+        "carnet": "12-10240",
+        "nombre": "Benjamin Amós Amos Carta"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 283,
+    "fields": {
+        "carnet": "12-10427",
+        "nombre": "Lautaro Manuel Villalón Castillo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 284,
+    "fields": {
+        "carnet": "12-10515",
+        "nombre": "Francisco Alberto Rojas Key"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 285,
+    "fields": {
+        "carnet": "12-10523",
+        "nombre": "Adolfo Antonio Jeritson Huerta"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 286,
+    "fields": {
+        "carnet": "12-10551",
+        "nombre": "Bruno Colmenares Salamanca"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 287,
+    "fields": {
+        "carnet": "12-10561",
+        "nombre": "Pablo Ricardo Maldonado Montilva"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 288,
+    "fields": {
+        "carnet": "12-10578",
+        "nombre": "Fabio Daniel Suárez Gorrín"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 289,
+    "fields": {
+        "carnet": "12-10627",
+        "nombre": "Mauricio Federico Salerno Garmendia"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 290,
+    "fields": {
+        "carnet": "12-10630",
+        "nombre": "Edwin Joel Franco Mero"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 291,
+    "fields": {
+        "carnet": "12-10644",
+        "nombre": "Amanda De Jesus Camacho Rolon"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 292,
+    "fields": {
+        "carnet": "12-10645",
+        "nombre": "Alejandra Del Carmen Cordero García"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 293,
+    "fields": {
+        "carnet": "12-10694",
+        "nombre": "Eliot Gabriel Díaz García"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 294,
+    "fields": {
+        "carnet": "12-10706",
+        "nombre": "Ronald Alfonso Becerra Gil"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 295,
+    "fields": {
+        "carnet": "12-10761",
+        "nombre": "David Antonio Hernández Viloria"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 296,
+    "fields": {
+        "carnet": "12-10771",
+        "nombre": "David Alejandro Atias Martinez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 297,
+    "fields": {
+        "carnet": "12-10774",
+        "nombre": "Miguel Angel Parra Salgado"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 298,
+    "fields": {
+        "carnet": "12-10848",
+        "nombre": "Jean Paul Alexander Lacour"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 299,
+    "fields": {
+        "carnet": "12-10855",
+        "nombre": "Edwar Joel Yepez Paredes"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 300,
+    "fields": {
+        "carnet": "12-10863",
+        "nombre": "Daniel Eduardo Francis Zambrano"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 301,
+    "fields": {
+        "carnet": "12-10872",
+        "nombre": "Ricardo Mena De Fonseca"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 302,
+    "fields": {
+        "carnet": "12-10903",
+        "nombre": "Gianni Antonio Manilia Di Tommaso"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 303,
+    "fields": {
+        "carnet": "12-10906",
+        "nombre": "Alejandro Enrique Giron Morales"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 304,
+    "fields": {
+        "carnet": "12-10921",
+        "nombre": "Nathalia Carolina Silvera González"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 305,
+    "fields": {
+        "carnet": "12-10935",
+        "nombre": "Paola Valentina Rojas Chirino"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 306,
+    "fields": {
+        "carnet": "12-10941",
+        "nombre": "Norelys Marian Rumbos Carrasco"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 307,
+    "fields": {
+        "carnet": "12-10950",
+        "nombre": "Karina Andreina Gabanzo Garcia"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 308,
+    "fields": {
+        "carnet": "12-10958",
+        "nombre": "Carlos Javier Vázquez Rodríguez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 309,
+    "fields": {
+        "carnet": "12-10967",
+        "nombre": "Alfredo José Fanghella Valero"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 310,
+    "fields": {
+        "carnet": "12-11006",
+        "nombre": "Gabriel Gimenez Catuogno"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 311,
+    "fields": {
+        "carnet": "12-11067",
+        "nombre": "Javier Alberto Vivas Véliz"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 312,
+    "fields": {
+        "carnet": "12-11075",
+        "nombre": "Anthony Joseph El Kareh Said"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 313,
+    "fields": {
+        "carnet": "12-11088",
+        "nombre": "Ritces Coromoto Parra Barrios"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 314,
+    "fields": {
+        "carnet": "12-11091",
+        "nombre": "Alessandra Carina Marrero Bartolucci"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 315,
+    "fields": {
+        "carnet": "12-11092",
+        "nombre": "Antonio José Romero Álvarez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 316,
+    "fields": {
+        "carnet": "12-11135",
+        "nombre": "Jhon Kevin Torres Paredes"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 317,
+    "fields": {
+        "carnet": "12-11152",
+        "nombre": "Fernando Benjamín Pérez Maurera"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 318,
+    "fields": {
+        "carnet": "12-11170",
+        "nombre": "Andres Eduardo Cadenas Zerpa"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 319,
+    "fields": {
+        "carnet": "12-11247",
+        "nombre": "Andrés Eduardo Rocha Ferrer"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 320,
+    "fields": {
+        "carnet": "12-11281",
+        "nombre": "Diego Daniel Pedroza Pérez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 321,
+    "fields": {
+        "carnet": "12-11314",
+        "nombre": "Jonathan Enrique Reyes Santana"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 322,
+    "fields": {
+        "carnet": "12-11334",
+        "nombre": "Adrián Dezulovic Ortiz"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 323,
+    "fields": {
+        "carnet": "12-11402",
+        "nombre": "Georvic Alejandro Tur Rojas"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 324,
+    "fields": {
+        "carnet": "12-11468",
+        "nombre": "Victoria Vanessa Torres Avendaño"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 325,
+    "fields": {
+        "carnet": "12-11469",
+        "nombre": "Juan Eduardo Casilla Camarillo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 326,
+    "fields": {
+        "carnet": "12-11539",
+        "nombre": "Alejandra Estefania Guerrero Luna"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 327,
+    "fields": {
+        "carnet": "12-11555",
+        "nombre": "Erick Salvador Flejan Tovar"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 328,
+    "fields": {
+        "carnet": "13-10147",
+        "nombre": "Pablo Darío Betancourt Castro"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 329,
+    "fields": {
+        "carnet": "13-10156",
+        "nombre": "Rafael Andrés Blanco Guerra"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 330,
+    "fields": {
+        "carnet": "13-10160",
+        "nombre": "Jonathan David Boada Mendoza"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 331,
+    "fields": {
+        "carnet": "13-10191",
+        "nombre": "David Ernesto Cabeza Luque"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 332,
+    "fields": {
+        "carnet": "13-10516",
+        "nombre": "Alexander David García Nuñez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 333,
+    "fields": {
+        "carnet": "13-10543",
+        "nombre": "Victor Manuel Gomes Ribeiro"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 334,
+    "fields": {
+        "carnet": "13-10544",
+        "nombre": "Melanie Carolina Gomes Segovia"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 335,
+    "fields": {
+        "carnet": "13-10575",
+        "nombre": "Pablo Eduardo Gonzalez Castro"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 336,
+    "fields": {
+        "carnet": "13-10625",
+        "nombre": "Gabriel Eduardo Gutierrez Garcia"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 337,
+    "fields": {
+        "carnet": "13-10665",
+        "nombre": "Augusto Guillermo Hidalgo Bravo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 338,
+    "fields": {
+        "carnet": "13-10681",
+        "nombre": "Carlos Enrique Infante Lopez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 339,
+    "fields": {
+        "carnet": "13-10708",
+        "nombre": "Genesis Del Valle Kufatty Anton"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 340,
+    "fields": {
+        "carnet": "13-10770",
+        "nombre": "Yarima Gabriela Luciani Faccini"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 341,
+    "fields": {
+        "carnet": "13-10805",
+        "nombre": "Irina Antoinette Marcano Fadlallah"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 342,
+    "fields": {
+        "carnet": "13-10833",
+        "nombre": "Miguel Arturo Martinez Gutierrez"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 343,
+    "fields": {
+        "carnet": "13-10853",
+        "nombre": "Verónica Andreina Mazutiel Vargas"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 344,
+    "fields": {
+        "carnet": "13-10974",
+        "nombre": "Jose Alejandro Niebla Creazzola"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 345,
+    "fields": {
+        "carnet": "13-11000",
+        "nombre": "Christian Alexander Oliveros Labrador"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 346,
+    "fields": {
+        "carnet": "13-11150",
+        "nombre": "Arnaldo Alberto Quintero Segura"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 347,
+    "fields": {
+        "carnet": "13-11270",
+        "nombre": "Denylson Alejandro Romero Contreras"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 348,
+    "fields": {
+        "carnet": "13-11274",
+        "nombre": "Alexander Arturo Romero San Andres"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 349,
+    "fields": {
+        "carnet": "13-11310",
+        "nombre": "Mathias Alejandro San Miguel López"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 350,
+    "fields": {
+        "carnet": "13-11347",
+        "nombre": "Carlos Alberto Serrada Granado"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 351,
+    "fields": {
+        "carnet": "13-11389",
+        "nombre": "Giulianne Vanessa Tavano Rangel"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 352,
+    "fields": {
+        "carnet": "13-11412",
+        "nombre": "Gabriel Alexander Torres Ruiz"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 353,
+    "fields": {
+        "carnet": "13-11447",
+        "nombre": "Daniel Alessandro Varela Di Nuzzo"
+    }
+},
+{
+    "model": "compushow_app.computista",
+    "pk": 354,
+    "fields": {
+        "carnet": "13-11509",
+        "nombre": "Jesus Gabriel Yepez Moreno"
+    }
+}
+]

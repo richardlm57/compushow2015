@@ -1,49 +1,57 @@
 {% extends 'nominar.html' %}
 
 {% block title %}
-	{{nombre_nominacion}}
+	{{nombre_nominacion.nombre}}
 {% endblock %}
 
 {% block imagen %}
-	<img src="{{ STATIC_URL }}img/{{nombre_nominacion}}.jpg" >	
+	<img src="{{ STATIC_URL }}img/{{nombre_nominacion.nombre}}.jpg" >	
 {% endblock %}
 
 {% block Nominacion %}
-	{{nombre_nominacion}}
+	{{nombre_nominacion.nombre}}
 {% endblock %}
 
 {% block Descripcion %}
-	Esta nominacion es para ese computista que ni la 12 lo perturba. Siempre esta chilleando.
+	{{ nombre_nominacion.descripcion }}
 {% endblock %}
 
 {% block Botones %}
 
-	{% if nombre_nominacion == 'CompuLove' %}
-		<input type="text" class="nombre_input" placeholder="Nombre">
-		<br>
-		<br>
-		<input type="text" class="nombre_input" placeholder="Nombre">
-		<br>
-		<br>
-	{% else %}
+	{% if nombre_nominacion.nombre == 'CompuLove' %}
 		<input type="text" class="nombre_input" placeholder="Nombre">
 		<br>
 		<br>
 	{% endif %}
-
-	<div class="boton-file">FOTO:</div> 
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" type="text/css" media="all" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript">
+    </script> <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+        $(function() {
+            $("#id_nominado").autocomplete({
+                source: "/api/get_computistas_nombre/",
+                minLength: 2,
+            });
+        });
+    </script>
+	<form action="" method="post">
+	{% csrf_token %}
+	<div class="ui-widget">
+	{{ form }}
+	</div>
+	<button type="submit" class="login_input">Nominar<span class="icon-keyboard-arrow-right"></span></button>
+	</form>
+	<!-- <div class="boton-file">FOTO:</div> 
 		<input type="file" class="file_input" name="img" accept="image/*">
-	<div class="file_text">No has escogido foto</div>
+	<div class="file_text">No has escogido foto</div> -->
 {% endblock %}
 
 {% block sidebar %}
 	{% for n in nominaciones %}
-
-		{% if n == nombre_nominacion %}
-			<li><a href="/{{n}}/" class='selected'>{{n}}</a></li>
+		{% if n.nombre != nombre_nominacion.nombre %}
+			<li><a href="/nominacion/{{n.nombre}}/">{{n.nombre}}</a></li>
 		{% else %}
-			<li><a href="/{{n}}/">{{n}}</a></li>
+			<li><a href="#" class='selected'>{{n.nombre}}</a></li>
 		{% endif %}
-
 	{% endfor %}
 {% endblock %}
