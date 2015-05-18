@@ -1,0 +1,9 @@
+LOGIN:
+	si ingresas un carnet mal no dice nada
+
+REGISTRO:
+	aparece error de llave duplicada (Django) si ingresas un usario ya registardo
+
+NOMINACIONES:
+	da error de page not found (?) cuando tratas de cargar la pag sin loguearte
+
