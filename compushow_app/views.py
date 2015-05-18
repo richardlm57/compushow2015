@@ -32,14 +32,14 @@ def login(request):
                     return redirect('nombre_nominacion', nombre='CompuChill')
                 else:
                     print("The password is valid, but the account has been disabled!")
-                    return render_to_response('login.html',{'form':form},context_instance=RequestContext(request))
+                    return render_to_response('login-registro/login.html',{'form':form},context_instance=RequestContext(request))
             else:
                 # the authentication system was unable to verify the username and password
                 print("The username and password were incorrect.")
-                return render_to_response('login.html',{'form':form},context_instance=RequestContext(request))
+                return render_to_response('login-registro/login.html',{'form':form},context_instance=RequestContext(request))
     else:
         form = Login_Signup_Form()
-    return render_to_response('login.html',{'form':form,'mensaje':mensaje},context_instance=RequestContext(request))
+    return render_to_response('login-registro/login.html',{'form':form,'mensaje':mensaje},context_instance=RequestContext(request))
 
 @login_required(login_url='')
 def Nominacion(request,nombre):
@@ -61,12 +61,47 @@ def Nominacion(request,nombre):
                     'CompuMami']
     if nombre in nominaciones:
         nombre_nominacion = nombre
-        return render_to_response('nominaciones.html',locals(),context_instance=RequestContext(request))
+        return render_to_response('nominar/nominaciones.html',locals(),context_instance=RequestContext(request))
     # else:
     #     # auth_logout(request)
     #     # return redirect('compushow_app.views.login')
     #     nombre_nominacion = 'bla'
     #     return render_to_response('nominaciones.html',locals(),context_instance=RequestContext(request))
+
+@login_required(login_url='')
+def Votacion(request,nombre):
+    nominaciones=[  'CompuChill',
+                    'CompuGordito',
+                    'CompuProductista',
+                    'CompuCartoon',
+                    'CompuComadre',
+                    'CompuCompadre',
+                    'CompuLove',
+                    'CompuCuchi',
+                    'CompuIntenso',
+                    'CompuPregunton',
+                    'CompuFitness',
+                    'CompuTeam',
+                    'CompuMaster',
+                    'CompuPro',
+                    'CompuPapi',
+                    'CompuMami']
+    
+    Nominados=[ 'Sergio Teran',
+                'Richard Lares',
+                'David Lilue',
+                'Carlos Plantijn',
+                'Domingo Arteaga']
+                
+    if nombre in nominaciones:
+        nombre_nominacion = nombre
+        return render_to_response('votar/votaciones.html',locals(),context_instance=RequestContext(request))
+    # else:
+    #     # auth_logout(request)
+    #     # return redirect('compushow_app.views.login')
+    #     nombre_nominacion = 'bla'
+    #     return render_to_response('nominaciones.html',locals(),context_instance=RequestContext(request))
+
 
 def signup(request):
 	if request.method == 'POST':
@@ -80,7 +115,7 @@ def signup(request):
 			return redirect('compushow_app.views.login')
 	else:
 		form = Login_Signup_Form()
-	return render_to_response('signup.html',{'form':form},context_instance=RequestContext(request))
+	return render_to_response('login-registro/signup.html',{'form':form},context_instance=RequestContext(request))
 
 @login_required(login_url='')
 def logout(request):

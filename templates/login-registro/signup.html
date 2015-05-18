@@ -1,23 +1,6 @@
+{% extends 'base.html' %}
 
-<!DOCTYPE html>
-{% load static %}
-<html lang = "en">
-<head>
-	<meta charset = "UFT-8">
-	<title>COMPUSHOW - Registro</title>
-
-	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/estilo.css">
-	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/font.css">
-
-	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet' type='text/css'>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	
-</head>
-
-<body>
-	<img class="opaco" src="{{ STATIC_URL }}img/black.jpg">
-
+{% block contenedor %}
 	<div class="contenedor">
 
 		<header>
@@ -29,7 +12,6 @@
 			<form action="./signup" method="post">
               {% csrf_token %}
               {% for field in form %}
-                    
               		{% if field.name == "Password" %}
                     <input type="password" name="{{field.name}}" placeholder="{{field.label}} ">
                     {% else %}
@@ -39,7 +21,7 @@
               {% endfor %}
 				<button type="submit" class="login_input">Registrarme<span class="icon-keyboard-arrow-right"></span></button>
 			<label class="text_singup">
-    			ó <a href="/">Inicia Sesion<span class="icon-keyboard-arrow-right"></span> </a>
+    			ó <a href="/" class="selected">Inicia Sesi&oacute;n<span class="icon-keyboard-arrow-right selected"></span> </a>
 			</label>
 			</form>
 			
@@ -65,11 +47,4 @@
 			</p>
 		</aside>
 
-		<footer>
-			<a href="#" class="bt-footer"><span class="icon-facebook2"></span></a>
-			<a href="#" class="bt-footer"><span class="icon-instagram"></span></a>
-			<a href="#" class="bt-footer"><span class="icon-twitter"></span></a>
-		</footer>
-	</div>
-</body>
-</html>
+{% endblock %}

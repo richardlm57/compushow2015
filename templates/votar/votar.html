@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block contenedor %}
+
+	<div class="contenedor inicio">
+		<header>
+			<div class="menu_bar">
+				<a href="#" class="bt-menu"><span class="icon-lines"></span> <img class="peque" src="{{ STATIC_URL }}img/tittle.png"> </a>
+			</div>
+				<nav>
+					<img class="peque" src="{{ STATIC_URL }}img/tittle.png">
+					<ul align=left>
+					<img class="opaco sub" src="{{ STATIC_URL }}img/black.jpg">
+					<a href="/nominados/">
+						<li class="bt-menu">TUS VOTACIONES</li>
+					</a>
+						<li class="submenu bt-menu bt-nominaciones">NOMINACIONES<span class="caret icon-keyboard-arrow-down"></span>							
+							<ul class="hijos">
+								{% for n in nominaciones %}
+									<li><a href="/{{n}}/Votar">{{n}}</a></li>
+								{% endfor %}
+							</ul>
+						</li>
+						<a href="/logout/">
+							<li class="bt-menu">SALIR</li>
+						</a>
+					</ul>
+				</nav>
+		</header>
+
+ 		<section class="Votacion">
+			<div>
+				{% block imagen %}
+				{% endblock %}
+ 				<h1>
+ 					{% block Nominacion %}
+ 					{% endblock %}
+ 				</h1>
+ 			</div>
+ 					
+ 			<div>
+				{% block Descripcion %}
+				{% endblock %}
+ 			</div>
+ 		</section>
+
+		<section class="montado">
+			<nav>
+				<h1 class="titulo-side">NOMINACIONES</h1>
+				
+				{% block sidebar %}{% endblock %}
+				
+			</nav>
+		</section>
+
+{% endblock %}

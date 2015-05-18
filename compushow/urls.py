@@ -16,6 +16,7 @@ urlpatterns = patterns('',
 
     # url(r'^$', loginView.as_view()),
     url(r'^admin/', include(admin.site.urls)),
+
     url(r'^$', login, name='login'),
     
     # (r'^$', 'django.contrib.auth.views.login', {'template_name': 'login.html'}),
@@ -25,4 +26,6 @@ urlpatterns = patterns('',
 	url(r'^logout/', logout ),
     
     url(r'^(?P<nombre>[\w]+)/$', Nominacion, name='nombre_nominacion'),
+
+    url(r'^(?P<nombre>[\w]+)/Votar$', Votacion, name='nombre_votacion'),
 ) + static(settings.STATIC_URL,)

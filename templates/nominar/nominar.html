@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-{% load static %}
-<html lang = "en">
-<head>
-	<meta charset = "UFT-8">
-	<title>COMPUSHOW - {% block title %}{% endblock %}</title>
+{% extends 'base.html' %}
 
-	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/estilo.css">
-	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/font.css">
-
-	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet' type='text/css'>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="{{ STATIC_URL }}js/menu.js"></script>
-
-	
-</head>
-
-<body>
-	<img class="opaco" src="{{ STATIC_URL }}img/black.jpg">
-
+{% block contenedor %}
 	<div class="contenedor inicio">
 		<header>
 			<div class="menu_bar">
@@ -93,12 +74,5 @@
 
 			
 		</nav>
-		
 		</section>
-		<footer>
-			<a href="#" class="bt-footer"><span class="icon-facebook2"></span></a>
-			<a href="#" class="bt-footer"><span class="icon-instagram"></span></a>
-			<a href="#" class="bt-footer"><span class="icon-twitter"></span></a>
-		</footer>
-	</div>
-</body>
+{% endblock %}
