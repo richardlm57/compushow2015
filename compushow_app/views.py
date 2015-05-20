@@ -2,7 +2,7 @@ from django.shortcuts import render_to_response, redirect, HttpResponseRedirect
 from django.http import Http404,HttpResponse,HttpRequest
 from django.template import RequestContext
 from django.views import generic
-from django.views.generic import View
+from django.views.generic import View,ListView
 from compushow_app.forms import *
 from compushow_app.models import *
 from django.contrib.auth.models import User
@@ -91,7 +91,8 @@ def Votacion(request,nombre):
                 'Richard Lares',
                 'David Lilue',
                 'Carlos Plantijn',
-                'Domingo Arteaga']
+                'Pedro Perez'
+                ]
                 
     if nombre in nominaciones:
         nombre_nominacion = nombre

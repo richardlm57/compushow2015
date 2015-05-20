@@ -8,7 +8,6 @@ from django.contrib import admin
 from compushow_app.views import *
 
 
-
 urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'compushow.views.home', name='home'),
@@ -28,4 +27,5 @@ urlpatterns = patterns('',
     url(r'^(?P<nombre>[\w]+)/$', Nominacion, name='nombre_nominacion'),
 
     url(r'^(?P<nombre>[\w]+)/Votar$', Votacion, name='nombre_votacion'),
+
 ) + static(settings.STATIC_URL,)

@@ -18,10 +18,13 @@
 
 {% block Nominados %}
 	{%for n in Nominados%}
-		<span class="circular_v">
-			<img src="{{ STATIC_URL }}img/{{nombre_nominacion}}.jpg">
-			{{n}}
-		</span>
+		<div class="nominado">
+			<input type="radio" name="grupo_unico" id="{{n}}" >
+			<label for="{{n}}">
+				{{n}}
+				<img class="circular_votar" src="{{ STATIC_URL }}img/CompuChill.jpg">
+			</label>
+		</div>
 	{% endfor %}
 {% endblock %}
 
@@ -33,6 +36,5 @@
 		{% else %}
 			<li><a href="/{{n}}/Votar">{{n}}</a></li>
 		{% endif %}
-
 	{% endfor %}
 {% endblock %}
