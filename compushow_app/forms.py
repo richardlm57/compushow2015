@@ -1,6 +1,6 @@
 from django import forms
 from django.core.validators import RegexValidator
-from compushow_app.models import Usuario
+from compushow_app.models import Foto
 
 # Form para la creación de un estacionamiento
 
@@ -21,3 +21,8 @@ class SignupForm(forms.Form):
 
 class NominacionForm(forms.Form):
     nominado = forms.CharField(max_length=70)
+
+class FotoForm(form.ModelForm):
+
+    class Meta:
+        model = Foto

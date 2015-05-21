@@ -22,7 +22,9 @@ urlpatterns = patterns('',
 
 	url(r'^signup$', signup),
 
-	url(r'^logout/', logout ),
+	url(r'^logout/', logout),
+
+    url(r'^test$', test),
 
     url(r'^api/get_computistas/', 'compushow_app.views.get_computistas'),
     

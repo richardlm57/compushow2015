@@ -19,13 +19,8 @@ class Computista(models.Model):
     carnet = models.CharField(max_length=8)
     nombre = models.CharField(max_length=70)
 
-class Usuario(models.Model):
-    password = models.CharField(max_length=8)
-    comp_fk  = models.ForeignKey(Computista)
-
-
-# class Foto(models.Model):
-#     imagen  = models.ImageField(upload_to = "directorioDondeSeVaAGuardar")
+class Foto(models.Model):
+    imagen = models.ImageField(upload_to = "images/")
 #     descripcion  = models.CharField(max_length = 128)
 
 #     def vistaPrevia(self):

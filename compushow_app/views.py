@@ -52,7 +52,7 @@ def signup(request):
             password = form.cleaned_data['Password']
             cpword   = form.cleaned_data['Cpassword']
             
-            exist = list(User.objects.filter(username=comp.carnet))[0]
+            exist = User.objects.filter(username=comp.carnet)
             if exist:
                 return render_to_response('signup.html', {
                 'form':form,
@@ -71,6 +71,19 @@ def signup(request):
         form = SignupForm()
     return render_to_response('signup.html', {
         'form':form
+        }, context_instance=RequestContext(request))
+
+def test(request):
+    if request.method == 'POST':
+        form = FotoForm(request.POST)
+        if form.is_valid():
+            form.save()
+            HttpResponseRedirect('')
+    else:
+        form = FotoForm()
+    return render_to_response('login.html', {
+        'form':form,
+        'mensaje':mensaje
         }, context_instance=RequestContext(request))
 
 def get_computistas(request):

@@ -3,3 +3,5 @@
 compushow/*.py
 
 env/
+
+compushow_app/migrations/*.*
