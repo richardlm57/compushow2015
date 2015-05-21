@@ -11,16 +11,15 @@
 					<ul align=left>
 					<img class="opaco sub" src="{{ STATIC_URL }}img/black.jpg">
 					
-					<a href="/nominados/">
-						<li class="bt-menu">TUS NOMINADOS</li>
-					</a>
-						
+					{#  <a href="/nominados/"> #}
+						{# <li class="bt-menu">TUS NOMINADOS</li> #}
+					{# </a> #}
 					
 						<li class="submenu bt-menu bt-nominaciones">NOMINACIONES<span class="caret icon-keyboard-arrow-down"></span>
 							
 							<ul class="hijos">
 								{% for n in nominaciones %}
-									<li><a href="/{{n}}/">{{n}}</a></li>
+									<li><a href="../../nominacion/{{n.nombre}}/">{{n.nombre}}</a></li>
 								{% endfor %}
 							</ul>
 						
@@ -48,9 +47,9 @@
 				<section class="nominado">
 					<section class="desc_nominacion">
 						<p>
-							<br>
 							{% block Descripcion %}
 							{% endblock %}
+							<br>
 						</p>
 					</section>
 
@@ -59,14 +58,11 @@
 					
 					<br>
 					<br>
-					<section class="boton">
-						<a href="#">NOMINAR <span class="icon-keyboard-arrow-right"></span></a>
-					</section>
 				</section>
 			</section>
 		</section>
 
-		<section class="nominaciones">
+		<section class="montado">
 		<nav>
 			<h1 class="titulo-side">NOMINACIONES</h1>
 			{% block sidebar %}
