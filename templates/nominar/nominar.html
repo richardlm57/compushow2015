@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-{% load static %}
-<html lang = "en">
-<head>
-	<meta charset = "UFT-8">
-	<title>COMPUSHOW - {% block title %}{% endblock %}</title>
+{% extends 'base.html' %}
 
-	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/estilo.css">
-	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/font.css">
-
-	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet' type='text/css'>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="{{ STATIC_URL }}js/menu.js"></script>
-
-	
-</head>
-
-<body>
-	<img class="opaco" src="{{ STATIC_URL }}img/black.jpg">
-
+{% block contenedor %}
 	<div class="contenedor inicio">
 		<header>
 			<div class="menu_bar">
@@ -30,16 +11,15 @@
 					<ul align=left>
 					<img class="opaco sub" src="{{ STATIC_URL }}img/black.jpg">
 					
-					<a href="/nominados/">
-						<li class="bt-menu">TUS NOMINADOS</li>
-					</a>
-						
+					{#  <a href="/nominados/"> #}
+						{# <li class="bt-menu">TUS NOMINADOS</li> #}
+					{# </a> #}
 					
 						<li class="submenu bt-menu bt-nominaciones">NOMINACIONES<span class="caret icon-keyboard-arrow-down"></span>
 							
 							<ul class="hijos">
 								{% for n in nominaciones %}
-									<li><a href="/{{n}}/">{{n}}</a></li>
+									<li><a href="../../nominacion/{{n.nombre}}/">{{n.nombre}}</a></li>
 								{% endfor %}
 							</ul>
 						
@@ -67,9 +47,9 @@
 				<section class="nominado">
 					<section class="desc_nominacion">
 						<p>
-							<br>
 							{% block Descripcion %}
 							{% endblock %}
+							<br>
 						</p>
 					</section>
 
@@ -78,14 +58,11 @@
 					
 					<br>
 					<br>
-					<section class="boton">
-						<a href="#">NOMINAR <span class="icon-keyboard-arrow-right"></span></a>
-					</section>
 				</section>
 			</section>
 		</section>
 
-		<section class="nominaciones">
+		<section class="montado">
 		<nav>
 			<h1 class="titulo-side">NOMINACIONES</h1>
 			{% block sidebar %}
@@ -93,12 +70,6 @@
 
 			
 		</nav>
-		
+
 		</section>
-		<footer>
-			<a href="#" class="bt-footer"><span class="icon-facebook2"></span></a>
-			<a href="#" class="bt-footer"><span class="icon-instagram"></span></a>
-			<a href="#" class="bt-footer"><span class="icon-twitter"></span></a>
-		</footer>
-	</div>
-</body>
+{% endblock %}

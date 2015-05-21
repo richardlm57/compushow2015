@@ -17,9 +17,17 @@
 		font-family: 'Quattrocento Sans', sans-serif;
 	}
 
+	.fondo{
+		-webkit-filter: blur(2px); -moz-filter: blur(2px); -o-filter: blur(2px); -ms-filter: blur(2px); filter: blur(2px);
+		z-index: -10;
+		position: fixed;
+		left: 0;
+		right: 0;		
+	}
+
 	a{
 		text-decoration: none;
-		color: #8B0404;
+		color: #fff;
 	}
 
 	a:hover{
@@ -49,10 +57,6 @@
 
 	.sub{
 		display: none;
-	}
-
-	.blue{
-		background-color: #f6f6f6;
 	}
 
 /* HEADER */
@@ -97,7 +101,8 @@
 
 	.menu_bar{
 		display: none;
-	}
+		background-image: url("black.jpg");
+			}
 
 	header .peque{
 		width: 40%;
@@ -117,7 +122,7 @@
 		}
 
 		.hijos{
-			background-color: #fff;																																																																																																																																																																																												
+			background-color: rgba(255,255,255,0.5);																																																																																																																																																																																												
 		}
 
 		header nav ul li .hijos li{
@@ -189,11 +194,11 @@
 		}
 
 		aside{
+			top: 50%;
 			width: 30%;
+			color: #fff;
 			float: left;
 			padding: 10px;
-			top: 50%;
-			color: #fff;
 			box-sizing:border-box;
 			text-align: justify;
 		}
@@ -233,30 +238,30 @@
 
 		/* NOMINACIONES */
 
-		.nominaciones{
-			position: absolute;
-			padding: 1em;
-			margin: 0px auto;
-			overflow: hidden;
-			text-align: left;
-			width: 27%;
-			list-style: none;			
-			background-color: rgba(0,0,0, 0.3);
-		}
+			.nominaciones{
+				position: absolute;
+				padding: 1em;
+				width: 27%;
+				margin: 0px auto;
+				overflow: hidden;
+				text-align: left;
+				list-style: none;			
+				background-color: rgba(0,0,0, 0.3);
+			}
 
-		.titulo-side{
-			color: #fff;
-			font-size: 1.7em;
-		}
+			.titulo-side{
+				color: #fff;
+				font-size: 1.7em;
+			}
 
-		.selected{
-			color: #fff;
-		}
-			
-		.nominaciones li:hover{
-			background-color: rgba(0,0,0,0.6);
-			color: rgba(255,255,255);
-		}
+			.selected{
+				color: #053895;
+			}
+				
+			.nominaciones li:hover{
+				background-color: rgba(0,0,0,0.6);
+				color: rgba(255,255,255);
+			}
 		/* NAVEGA */
 
 			.navega{
@@ -264,6 +269,7 @@
 				margin: 0px auto 10px;		
 				font-size: 2em;
 				overflow: hidden;
+				color: #fff;
 				text-align: center;
 			}
 
@@ -389,7 +395,85 @@
 
 			.nominado p{
 				float: left;
+				color: #fff;
 			}
+
+	/* VOTACION */
+		.Votacion{
+			color: #fff;
+			float: right;
+			width: 73%;
+			position: relative;
+		}	
+
+		.montado{
+			position: absolute;
+			overflow: hidden;
+			text-align: left;
+			list-style: none;			
+			background-color: rgba(0,0,0, 0.3);
+		}
+
+
+
+		.titulo_votar h1{
+			font-size: 3em;
+		}
+
+		.nominados_v{
+			width: 73%;
+			float: right;
+			color: #fff;
+		}
+
+		.nominado{
+			overflow: hidden;
+			text-align: center;
+		}
+
+		.circular_votar{
+			overflow: hidden;
+			height: 10em;
+			width: 10em;
+			-webkit-border-radius: 100%;
+			-moz-border-radius: 100%;
+			border-radius: 100%;
+			max-width: 150%;
+			float: left;
+			padding: 1em;
+		}
+
+
+		input[type="radio"]{
+			display: none;
+		}
+
+		input[type="radio"]:+label{
+			background-color: #e1e1e1;
+		}
+
+		input[type="radio"]:checked	+ label{
+			display: inline-block;
+			background-color: rgba(0,0,0,.5);
+			border-radius: 1em;
+		}
+
+	.votar_input{
+		display: inline-block;
+		width: 30%;
+		z-index: 3;
+		max-height: 2em;
+		background-color: #053895;
+		padding: 1% 1.6em 0.1em ;
+		border: none;
+		outline: medium none;
+		text-transform: uppercase;
+		color: #fff;
+		text-align: right;
+		overflow: hidden;
+		margin: 0em auto;
+		float: right;
+	}
 
 /* FORM */
 
@@ -475,8 +559,6 @@
 		background-color: #053895;
 		border-radius: 100%;
 	}
-
-
 
 /* MEDIA 800 */
 
@@ -575,6 +657,8 @@
 
 
 			.menu_bar{
+		background-image: url("black.jpg");
+
 				display: block;
 				width: 100%;
 				position: fixed;
@@ -638,16 +722,29 @@
 				display: block;
 			}
 
-			/* NOMINACIONES */
+		/* NOMINACIONES */
 			.nominaciones{
 				display: none;
 			}
 
 		/* FOOTER */
 		
-		.nominaciones footer{
-			display: block;
-		}
+			.nominaciones footer{
+				display: block;
+			}
+
+		/* VOTACION */
+
+			.Votacion{
+				width: 90%;
+				margin: auto auto auto auto;
+				float: none;
+			}
+
+			.montado{
+				display: none;
+			}
+
 
 	}	
 

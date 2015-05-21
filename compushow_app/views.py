@@ -2,7 +2,7 @@ from django.shortcuts import render_to_response, redirect, HttpResponseRedirect,
 from django.http import Http404,HttpResponse,HttpRequest
 from django.template import RequestContext
 from django.views import generic
-from django.views.generic import View
+from django.views.generic import View,ListView
 from compushow_app.forms import *
 from compushow_app.models import *
 from django.contrib.auth.models import User
@@ -28,17 +28,17 @@ def login(request):
                     auth_login(request, user)
                     return redirect('bien', idU=user.pk)
                 else:
-                    return render_to_response('login.html',{
+                    return render_to_response('login-registro/login.html',{
                         'form':form
                         }, context_instance=RequestContext(request))
             else:
-                return render_to_response('login.html',{
+                return render_to_response('login-registro/login.html',{
                     'form':form,
                     'mensaje':"El usuario o la contraseña fue incorrecta"
                     }, context_instance=RequestContext(request))
     else:
         form = Login_Signup_Form()
-    return render_to_response('login.html', {
+    return render_to_response('login-registro/login.html', {
         'form':form,
         'mensaje':mensaje
         }, context_instance=RequestContext(request))
@@ -54,7 +54,7 @@ def signup(request):
             
             exist = User.objects.filter(username=comp.carnet)
             if exist:
-                return render_to_response('signup.html', {
+                return render_to_response('login-registro/signup.html', {
                 'form':form,
                 'mensaje': "Usuario registrado. Contacta por cualquier problema"
                 }, context_instance=RequestContext(request))
@@ -63,13 +63,13 @@ def signup(request):
                 user.save()
                 return HttpResponseRedirect('/')
         else:
-            return render_to_response('signup.html', {
+            return render_to_response('login-registro/signup.html', {
                 'form':form,
                 'mensaje': "No coincide la clave"
                 }, context_instance=RequestContext(request))
     else:
         form = SignupForm()
-    return render_to_response('signup.html', {
+    return render_to_response('login-registro/signup.html', {
         'form':form
         }, context_instance=RequestContext(request))
 
@@ -127,10 +127,11 @@ def get_computistas_nombre(request):
     return HttpResponse(data, mimetype)
 
 @login_required(login_url='')
-def wellcome(request, idU):
+def welcome(request, idU):
     nominaciones = Categoria.objects.all()
     mensaje = "Bienvenido a las nominaciones del Compushow"
-    return render_to_response('wellcome.html', {
+
+    return render_to_response('welcome.html', {
         'mensaje':mensaje,
         'userId':idU,
         'nominaciones':nominaciones
@@ -153,7 +154,7 @@ def nominacion(request, idU, name):
                 #nmin.save()
         else:
             form = NominacionForm()
-        return render_to_response('nominaciones.html', {
+        return render_to_response('nominar/nominaciones.html', {
             'form': form,
             'nombre_nominacion':lista[0],
             'nominaciones':nominaciones

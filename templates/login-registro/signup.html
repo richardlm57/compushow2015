@@ -1,17 +1,10 @@
+{% extends 'base.html' %}
 
-<!DOCTYPE html>
-{% load static %}
-<html lang = "en">
-<head>
-	<meta charset = "UFT-8">
-	<title>COMPUSHOW - Registro</title>
+{% block title %}
+	Registro
+{% endblock %}
 
-	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/estilo.css">
-	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/font.css">
-
-	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet' type='text/css'>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
+{% block js %}
 	<link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" type="text/css" media="all" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript">
     </script> <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
@@ -23,11 +16,10 @@
             });
         });
     </script>
-</head>
+{% endblock %}	
 
-<body>
-	<img class="opaco" src="{{ STATIC_URL }}img/black.jpg">
 
+{% block contenedor %}
 	<div class="contenedor">
 
 		<header>
@@ -51,7 +43,7 @@
               {{ mensaje }}
 				<button type="submit" class="login_input">Registrarme<span class="icon-keyboard-arrow-right"></span></button>
 			<label class="text_singup">
-    			ó <a href="/">Inicia Sesion<span class="icon-keyboard-arrow-right"></span> </a>
+    			ó <a href="/" class="selected">Inicia Sesi&oacute;n<span class="icon-keyboard-arrow-right selected"></span> </a>
 			</label>
 			</form>
 			
@@ -77,11 +69,4 @@
 			</p>
 		</aside>
 
-		<footer>
-			<a href="#" class="bt-footer"><span class="icon-facebook2"></span></a>
-			<a href="#" class="bt-footer"><span class="icon-instagram"></span></a>
-			<a href="#" class="bt-footer"><span class="icon-twitter"></span></a>
-		</footer>
-	</div>
-</body>
-</html>
+{% endblock %}

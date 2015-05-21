@@ -1,0 +1,40 @@
+{% extends 'votar/votar.html' %}
+
+{% block title %}
+	{{nombre_nominacion}}
+{% endblock %}
+
+{% block imagen %}
+	<img class="circular_votar" src="{{ STATIC_URL }}img/{{nombre_nominacion}}.jpg" >	
+{% endblock %}
+
+{% block Nominacion %}
+	{{nombre_nominacion}}
+{% endblock %}
+
+{% block Descripcion %}
+	Esta nominacion es para ese computista que ni la 12 lo perturba. Siempre esta chilleando.
+{% endblock %}
+
+{% block Nominados %}
+	{%for n in Nominados%}
+		<div class="nominado">
+			<input type="radio" name="grupo_unico" id="{{n}}" >
+			<label for="{{n}}">
+				{{n}}
+				<img class="circular_votar" src="{{ STATIC_URL }}img/CompuChill.jpg">
+			</label>
+		</div>
+	{% endfor %}
+{% endblock %}
+
+{% block sidebar %}
+	{% for n in nominaciones %}
+
+		{% if n == nombre_nominacion %}
+			<li><a href="/{{n}}/Votar" class='selected'>{{n}}</a></li>
+		{% else %}
+			<li><a href="/{{n}}/Votar">{{n}}</a></li>
+		{% endif %}
+	{% endfor %}
+{% endblock %}
