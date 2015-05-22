@@ -74,16 +74,17 @@ def signup(request):
         }, context_instance=RequestContext(request))
 
 def test(request):
+    nominaciones = Categoria.objects.all()
     if request.method == 'POST':
-        form = FotoForm(request.POST)
+        form = FotoForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            HttpResponseRedirect('')
+            return HttpResponseRedirect('')
     else:
         form = FotoForm()
-    return render_to_response('login.html', {
+    return render_to_response('test.html', {
         'form':form,
-        'mensaje':mensaje
+        'nominaciones':nominaciones
         }, context_instance=RequestContext(request))
 
 def get_computistas(request):
@@ -143,19 +144,28 @@ def nominacion(request, idU, name):
     lista        = list(Categoria.objects.filter(nombre=name))
     if lista:
         if request.POST:
-            form = NominacionForm(request.POST)
-            if form.is_valid():
+            form1 = NominacionForm(request.POST)
+            form2 = FotoForm(request.POST, request.FILES)
+            if form1.is_valid():
                 nmdr = list(User.objects.filter(pk=idU))[0]
-                nmdo = list(Computista.objects.filter(nombre=form.cleaned_data['nominado']))[0]
-                catg = name
+                nmdo = list(Computista.objects.filter(nombre=form1.cleaned_data['nominado']))[0]
+                catg = list(Categoria.objects.filter(nombre=name))[0]
+                if form2.is_valid():
+                    t_foto = form2.save()
+                else:
+                    t_foto = None
                 nmin = Nominacion.objects.create(nominador=nmdr,
                                                  nominado=nmdo,
-                                                 categoria=catg)
-                #nmin.save()
+                                                 categoria=catg,
+                                                 foto=t_foto)
+                nmin.save()
+                return HttpResponseRedirect('/user/' + idU)
         else:
-            form = NominacionForm()
+            form1 = NominacionForm()
+            form2 = FotoForm()
         return render_to_response('nominar/nominaciones.html', {
-            'form': form,
+            'form1': form1,
+            'form2': form2,
             'nombre_nominacion':lista[0],
             'nominaciones':nominaciones
             }, context_instance=RequestContext(request))

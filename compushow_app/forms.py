@@ -22,7 +22,7 @@ class SignupForm(forms.Form):
 class NominacionForm(forms.Form):
     nominado = forms.CharField(max_length=70)
 
-class FotoForm(form.ModelForm):
-
+class FotoForm(forms.ModelForm):
     class Meta:
-        model = Foto
+        model  = Foto
+        fields = ['imagen']

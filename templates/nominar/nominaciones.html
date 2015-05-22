@@ -31,11 +31,12 @@
 {% endblock %}
 
 {% block Botones %}
-	<form action="" method="post">
+	<form action="" method="post" enctype="multipart/form-data">
+    <div class="ui-widget">
 	{% csrf_token %}
-	<div class="ui-widget">
-	{{ form }}
-	</div>
+	{{ form1 }}
+    </div>
+    {{ form2 }}
 	<button type="submit" class="login_input">NOMINAR<span class="icon-keyboard-arrow-right"></span></button>
 	</form>
 	<!-- <div class="boton-file">FOTO:</div> 

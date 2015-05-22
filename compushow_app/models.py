@@ -42,6 +42,7 @@ class Nominacion(models.Model):
     nominador = models.ForeignKey(User)
     nominado  = models.ForeignKey(Computista)
     categoria = models.ForeignKey(Categoria)
+    foto      = models.ForeignKey(Foto, null=True)
 
 # class Nominado(models.Model):
 #     computista  = models.ForeignKey(Computista)
