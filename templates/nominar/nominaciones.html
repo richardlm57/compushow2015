@@ -16,6 +16,14 @@
             });
         });
     </script>
+    <script type="text/javascript">
+        $(function() {
+            $("#id_nominado2").autocomplete({
+                source: "/api/get_computistas_nombre/",
+                minLength: 2,
+            });
+        });
+    </script>
 {% endblock %}
 
 {% block imagen %}
@@ -31,17 +39,41 @@
 {% endblock %}
 
 {% block Botones %}
-	<form action="" method="post" enctype="multipart/form-data">
+	<form action="/user/{{ user }}/nominacion/{{ nombre_nominacion.nombre }}/" method="post" enctype="multipart/form-data">
+
     <div class="ui-widget">
 	{% csrf_token %}
 	{{ form1 }}
     </div>
+    {% if nombre_nominacion.nombre == "CompuLove" %}
+    <div class="ui-widget">
+        <label for="id_nominado2">Nominado:</label>
+        <input id="id_nominado2"
+               name="nominado2" 
+               maxlength="70" 
+               type="text">
+    </div>
+    {% endif %}
+    {{ mensaje }}
+
+	<div class="boton-file"><span class="">FOTO</span><span class="icon-keyboard-arrow-right"></span>
+
     {{ form2 }}
-	<button type="submit" class="login_input">NOMINAR<span class="icon-keyboard-arrow-right"></span></button>
-	</form>
-	<!-- <div class="boton-file">FOTO:</div> 
-		<input type="file" class="file_input" name="img" accept="image/*">
-	<div class="file_text">No has escogido foto</div> -->
+    </div> 
+        
+
+    <script type="text/javascript">
+        document.getElementById('id_imagen').onchange = function () {
+            var auxiliar = this.value.split("/").pop().split("\\").pop()
+            document.getElementById('the_photo').innerHTML = auxiliar//auxiliar[auxiliar.length - 1]
+            //document.getElementById('the_photo').innerHTML = this.value
+            // $("the_photo").update(this.value);
+        };
+    </script>
+	<div class="file_text" id="the_photo" style="">No ha selecciona foto</div>
+
+    <button type="submit" class="nominar_button">NOMINAR<span class="icon-keyboard-arrow-right"></span></button>
+    </form>
 {% endblock %}
 
 {% block sidebar %}

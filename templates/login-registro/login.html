@@ -14,12 +14,7 @@
  		<section class="log_tittle">				
 			
 			<form action="." method="post">
-              
-	            {% comment %}
-	            {{form.username}}
-	            {{form.password}}
-	            {% endcomment %}
-	            	
+                      	
 	            {% csrf_token %}
 	            {% for field in form %}
 	              	{% if field.name == "Password" %}
@@ -33,10 +28,12 @@
 				<button type="submit"  class="login_input">
 					login<span class="icon-keyboard-arrow-right"></span>
 				</button>
-				<label class="text_singup">
+
+<!-- 				<label class="text_singup">
     			ó <a href="./signup" class="selected">Regístrate<span class="icon-keyboard-arrow-right selected"></span> </a>
 					
-				</label>
+				</label> -->
+                <a href="./signup" class="login_input abajo">REGISTRATE<span class="icon-keyboard-arrow-right selected"></span></a>
 			</form>
 			
 		</section>
@@ -49,12 +46,9 @@
 
 		<aside>
 			<p>
-				¡Este compushow se nos va a ir a de las manos!
+				Bienveido al sistema de nominaciones del Compushow 2015
 				<br>
 				Nomina a los computistas mas destacados
-				<br>
-				Logeate y participa!
-				<br>	
 				<br>
 				{{ mensaje }}
 			

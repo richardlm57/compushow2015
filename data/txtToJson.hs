@@ -1,8 +1,8 @@
-main = do
+ main = do
     ss <- readFile "computistas.txt"
     let d =  bar foo 1 (lines ss)
     writeFile "data.json" (unlines d)
-    return d
+    return "Se Genero El Json"
 
 bar f i (s:ss) = ((f i) s ): bar f (i+1) ss
 bar _ _ []     = []

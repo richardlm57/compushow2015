@@ -9,8 +9,8 @@
 
 	body {
 		background: #FFFFFA;
-		background-image: url("./LAS-VEGAS.jpg");
-		background-color: rgba(0,0,0,1);
+/*		background-image: url("./LAS-VEGAS.jpg");
+*/		background-color: rgba(0,0,0,1);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: top;
@@ -23,6 +23,7 @@
 		position: fixed;
 		left: 0;
 		right: 0;		
+		width: 100%;
 	}
 
 	a{
@@ -178,13 +179,15 @@
 		}
 
 	/* LOGIN */
+
 		.log_tittle{
 			top: 0;
 			width: 70%;
 			float: right;
 			padding: 8.5em;
 			margin: 0px auto;
-			
+
+
 			box-sizing:border-box;
 			
 			background-size: 100%;
@@ -207,6 +210,13 @@
 
 		.inicio{
 			overflow: visible;
+		}
+
+		.webo {
+			float: left;
+			z-index: 3;
+			position: absolute;
+			display: inline-block;
 		}
 
 		.nominacion{
@@ -338,26 +348,43 @@
 			}
 
 			.boton-file{
+				position: relative;
 				display: block;
-				position: absolute;
 				background-color: #8B0404;
-				width: 30%;
+				width: 100%;
 				z-index: 0;
 				height: 1.5em;
 				padding: 1% 1.6em 0 1.6em;
 				overflow: hidden;
+				margin: 0.1em;
+			}
+
+			.nominar_button{
+				display: inline-block;
+				width: 100%;
+				z-index: 3;
+				max-height: 2em;
+				background-color: #053895;
+				padding: 1% 1.6em 0.1em ;
+				border: none;
+				outline: medium none;
+				text-transform: uppercase;
+				color: #fff;
+				text-align: right;
+				overflow: hidden;
+				margin: 0.1em auto;
 			}
 
 			.file_text{
-				display: inline-block;
-				position: absolute;
+				display: block;
 				overflow: hidden;
-				left: 30%;
-				width: 70%;
-				z-index: 3;
+				left: 0%;
+				width: 100%;
+				z-index: 0;
 				height: 1.5em;
 				background-color: #525252;
 				padding: 1% 1.6em 0 1.6em;
+				margin: 0.1em;
 				text-transform: uppercase;
 			}
 
@@ -369,17 +396,17 @@
 				background-color: #8B0404;
 			}
 
-			.file_input{
-				display: block;
+			#id_imagen{
+				top:0;
+				left:0;
+				display: inline-block;
 				position: absolute;
 				padding: 0;
 				opacity: 0;
-				width: 50%;
-				float: left;
-				z-index: 2;
+				width: 100%;
 			}
 
-			.nombre_input{
+/*			#id_nominado{
 				display: inline-block;
 				position: absolute;
 				left: 0%;
@@ -391,7 +418,7 @@
 				border: none;
 				outline: medium none;
 				text-transform: uppercase;
-			}
+			}*/
 
 			.nominado p{
 				float: left;
@@ -410,11 +437,9 @@
 			position: absolute;
 			overflow: hidden;
 			text-align: left;
-			list-style: none;			
+			list-style: none;
 			background-color: rgba(0,0,0, 0.3);
 		}
-
-
 
 		.titulo_votar h1{
 			font-size: 3em;
@@ -509,7 +534,8 @@
 		color: #fff;
 		text-align: right;
 		overflow: hidden;
-		margin: 0em auto;
+		margin: 0.1em auto;
+		font-size: 100%;
 	}
 
 	form a span{
@@ -530,6 +556,7 @@
 		margin: 0em auto;
 		float: right;
 	}
+
 
 /* FOOTER */
 	footer{

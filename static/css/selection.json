@@ -1,0 +1,262 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M366.293 702.293l195.627-195.627-195.627-195.627 60.373-60.373 256 256-256 256z"
+				],
+				"attrs": [
+					{}
+				],
+				"isMulticolor": false,
+				"tags": [
+					"keyboard-arrow-right"
+				],
+				"grid": 24
+			},
+			"attrs": [
+				{}
+			],
+			"properties": {
+				"order": 1,
+				"id": 2,
+				"prevSize": 24,
+				"code": 58880,
+				"name": "keyboard-arrow-right"
+			},
+			"setIdx": 0,
+			"setId": 2,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
+					"M657.707 696.96l-195.627-195.627 195.627-195.627-60.373-60.373-256 256 256 256z"
+				],
+				"attrs": [
+					{}
+				],
+				"isMulticolor": false,
+				"tags": [
+					"keyboard-arrow-left"
+				],
+				"grid": 24
+			},
+			"attrs": [
+				{}
+			],
+			"properties": {
+				"order": 2,
+				"id": 1,
+				"prevSize": 24,
+				"code": 58881,
+				"name": "keyboard-arrow-left"
+			},
+			"setIdx": 0,
+			"setId": 2,
+			"iconIdx": 1
+		},
+		{
+			"icon": {
+				"paths": [
+					"M316.373 350.293l195.627 195.627 195.627-195.627 60.373 60.373-256 256-256-256z"
+				],
+				"attrs": [
+					{}
+				],
+				"isMulticolor": false,
+				"tags": [
+					"keyboard-arrow-down"
+				],
+				"grid": 24
+			},
+			"attrs": [
+				{}
+			],
+			"properties": {
+				"order": 3,
+				"id": 0,
+				"prevSize": 24,
+				"code": 58882,
+				"name": "keyboard-arrow-down"
+			},
+			"setIdx": 0,
+			"setId": 2,
+			"iconIdx": 2
+		},
+		{
+			"icon": {
+				"paths": [
+					"M192 1024h640l64-704h-768zM640 128v-128h-256v128h-320v192l64-64h768l64 64v-192h-320zM576 128h-128v-64h128v64z"
+				],
+				"attrs": [],
+				"tags": [
+					"bin",
+					"trashcan",
+					"remove",
+					"delete",
+					"recycle",
+					"dispose"
+				],
+				"defaultCode": 57935,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 681,
+				"order": 1,
+				"prevSize": 32,
+				"code": 59821,
+				"ligatures": "bin2, trashcan2",
+				"name": "bin2"
+			},
+			"setIdx": 1,
+			"setId": 0,
+			"iconIdx": 173
+		},
+		{
+			"icon": {
+				"paths": [
+					"M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
+				],
+				"attrs": [],
+				"tags": [
+					"menu",
+					"list",
+					"options",
+					"lines",
+					"hamburger"
+				],
+				"defaultCode": 58031,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"order": 12,
+				"id": 1448,
+				"prevSize": 32,
+				"code": 59837,
+				"ligatures": "menu, list3",
+				"name": "menu"
+			},
+			"setIdx": 1,
+			"setId": 0,
+			"iconIdx": 189
+		},
+		{
+			"icon": {
+				"paths": [
+					"M853.35 0h-682.702c-94.25 0-170.648 76.42-170.648 170.686v682.63c0 94.266 76.398 170.684 170.648 170.684h341.352v-448h-128v-128h128v-96c0-88.366 71.634-160 160-160h160v128h-160c-17.674 0-32 14.328-32 32v96h176l-32 128h-144v448h213.35c94.25 0 170.65-76.418 170.65-170.684v-682.63c0-94.266-76.4-170.686-170.65-170.686z"
+				],
+				"attrs": [],
+				"tags": [
+					"facebook",
+					"brand",
+					"social"
+				],
+				"defaultCode": 58521,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 1298,
+				"order": 7,
+				"prevSize": 32,
+				"code": 60045,
+				"ligatures": "facebook2, brand7",
+				"name": "facebook2"
+			},
+			"setIdx": 1,
+			"setId": 0,
+			"iconIdx": 397
+		},
+		{
+			"icon": {
+				"paths": [
+					"M854 0h-684c-93.5 0-170 76.5-170 170v684c0 93.5 76.5 170 170 170h684c93.5 0 170-76.5 170-170v-684c0-93.5-76.5-170-170-170zM327.8 448h368.4c6.988 20.058 10.8 41.59 10.8 64 0 107.524-87.476 195-195 195s-195-87.476-195-195c0-22.41 3.812-43.942 10.8-64zM896 448.050v383.95c0 35.2-28.8 64-64 64h-640c-35.2 0-64-28.8-64-64v-384h100.108c-4.642 20.602-7.108 42.016-7.108 64 0 160.458 130.542 291 291 291s291-130.542 291-291c0-21.984-2.464-43.398-7.108-64l100.108 0.050zM896 224c0 17.6-14.4 32-32 32h-64c-17.6 0-32-14.4-32-32v-64c0-17.6 14.4-32 32-32h64c17.6 0 32 14.4 32 32v64z"
+				],
+				"attrs": [],
+				"tags": [
+					"instagram",
+					"brand",
+					"social"
+				],
+				"defaultCode": 58524,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 1301,
+				"order": 8,
+				"prevSize": 32,
+				"code": 60048,
+				"ligatures": "instagram, brand10",
+				"name": "instagram"
+			},
+			"setIdx": 1,
+			"setId": 0,
+			"iconIdx": 400
+		},
+		{
+			"icon": {
+				"paths": [
+					"M853.342 0h-682.656c-93.874 0-170.686 76.81-170.686 170.69v682.624c0 93.936 76.812 170.686 170.686 170.686h682.656c93.876 0 170.658-76.75 170.658-170.69v-682.62c0-93.88-76.782-170.69-170.658-170.69zM766.478 381.48c0.252 5.632 0.38 11.296 0.38 16.988 0 173.51-132.070 373.588-373.584 373.588-74.15 0-143.168-21.738-201.276-58.996 10.272 1.218 20.724 1.84 31.322 1.84 61.518 0 118.134-20.992 163.072-56.21-57.458-1.054-105.948-39.020-122.658-91.184 8.018 1.532 16.244 2.36 24.704 2.36 11.976 0 23.578-1.61 34.592-4.61-60.064-12.066-105.326-65.132-105.326-128.75 0-0.554 0-1.104 0.012-1.652 17.7 9.834 37.948 15.742 59.47 16.424-35.232-23.546-58.414-63.736-58.414-109.292 0-24.064 6.476-46.62 17.78-66.010 64.76 79.44 161.51 131.712 270.634 137.19-2.238-9.612-3.4-19.632-3.4-29.924 0-72.512 58.792-131.298 131.304-131.298 37.766 0 71.892 15.944 95.842 41.462 29.908-5.886 58.008-16.814 83.38-31.862-9.804 30.662-30.624 56.394-57.732 72.644 26.56-3.174 51.866-10.232 75.412-20.674-17.594 26.328-39.854 49.454-65.514 67.966z"
+				],
+				"attrs": [],
+				"tags": [
+					"twitter",
+					"brand",
+					"tweet",
+					"social"
+				],
+				"defaultCode": 58526,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 1303,
+				"order": 6,
+				"prevSize": 32,
+				"code": 60050,
+				"ligatures": "twitter2, brand12",
+				"name": "twitter2"
+			},
+			"setIdx": 1,
+			"setId": 0,
+			"iconIdx": 402
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"showQuickUse2": true,
+		"showSVGs": true,
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880
+		},
+		"imagePref": {
+			"prefix": "icon-",
+			"png": true,
+			"useClassSelector": true,
+			"color": 4473924,
+			"bgColor": 16777215
+		},
+		"historySize": 100,
+		"showCodes": false,
+		"gridSize": 16
+	}
+}
