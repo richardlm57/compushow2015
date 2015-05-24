@@ -23,6 +23,12 @@ class NominacionForm(forms.Form):
     nominado = forms.CharField(max_length=70)
 
 class FotoForm(forms.ModelForm):
+
+    def __init__(self, *args, **kwargs):
+        super(FotoForm, self).__init__(*args, **kwargs)
+        self.fields['imagen'].label = ''
+
     class Meta:
         model  = Foto
         fields = ['imagen']
+

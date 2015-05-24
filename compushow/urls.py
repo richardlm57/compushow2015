@@ -20,11 +20,10 @@ urlpatterns = patterns('',
     
     # (r'^$', 'django.contrib.auth.views.login', {'template_name': 'login.html'}),
 
-	url(r'^signup$', signup),
+	url(r'^signup/$', signup),
 
 	url(r'^logout/', logout),
 
-    url(r'^test$', test, name='test'),
 
     url(r'^api/get_computistas/', 'compushow_app.views.get_computistas'),
     
@@ -32,6 +31,9 @@ urlpatterns = patterns('',
 
     url(r'^user/(?P<idU>[\w]+)/$', 'compushow_app.views.welcome', name='bien'),
     
+    url(r'^user/(?P<idU>[\w]+)/nominaciones/$', nominaciones, name='myNominaciones'),
+
+    url(r'^user/(?P<idU>[\w]+)/deleteN/(?P<idN>[\w]+)/$', delete, name='eliminar'),
 # <<<<<<< HEAD
 #     url(r'^(?P<nombre>[\w]+)/$', Nominacion, name='nombre_nominacion'),
 
@@ -39,5 +41,7 @@ urlpatterns = patterns('',
 
 # =======
     url(r'^user/(?P<idU>[\w]+)/nominacion/(?P<name>[\w]+)/$', nominacion, name='nombre_nominacion'),
+
+    url(r'^user/(?P<idU>[\w]+)/nominacion/(?P<name>[\w]+)/succeed/$', nominacion_ok, name='nominacion_ok'),
 # >>>>>>> 4e524352d79d9f0d01d8a5e1dff99d44581a1006
 ) + static(settings.STATIC_URL,)
